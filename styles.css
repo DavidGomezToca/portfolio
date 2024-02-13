@@ -577,15 +577,27 @@ h2 {
   background-color: #3979e1;
 }
 
-.skills .skill .htmlCss {
-  animation: 2s htmlCss forwards;
+.skills .skill .react {
+  animation: 2s react forwards;
 }
-@keyframes htmlCss {
+@keyframes react {
   0% {
     width: 0%;
   }
   100% {
-    width: 90%;
+    width: 70%;
+  }
+}
+
+.skills .skill .laravel {
+  animation: 2s laravel forwards;
+}
+@keyframes laravel {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
   }
 }
 
@@ -593,6 +605,66 @@ h2 {
   animation: 2s javascript forwards;
 }
 @keyframes javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+.skills .skill .wordpress {
+  animation: 2s wordpress forwards;
+}
+@keyframes wordpress {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+.skills .skill .mySQL {
+  animation: 2s mySQL forwards;
+}
+@keyframes mySQL {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+.skills .skill .php {
+  animation: 2s php forwards;
+}
+@keyframes php {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+.skills .skill .python {
+  animation: 2s python forwards;
+}
+@keyframes python {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+.skills .skill .kotlin {
+  animation: 2s kotlin forwards;
+}
+@keyframes kotlin {
   0% {
     width: 0%;
   }
@@ -613,18 +685,6 @@ h2 {
   }
 }
 
-.skills .skill .python {
-  animation: 2s python forwards;
-}
-@keyframes python {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 70%;
-  }
-}
-
 .skills .skill .cSharp {
   animation: 2s cSharp forwards;
 }
@@ -633,19 +693,19 @@ h2 {
     width: 0%;
   }
   100% {
-    width: 80%;
+    width: 85%;
   }
 }
 
-.skills .skill .mySQL {
-  animation: 2s mySQL forwards;
+.skills .skill .htmlCss {
+  animation: 2s htmlCss forwards;
 }
-@keyframes mySQL {
+@keyframes htmlCss {
   0% {
     width: 0%;
   }
   100% {
-    width: 70%;
+    width: 90%;
   }
 }
 
@@ -657,7 +717,7 @@ h2 {
     width: 0%;
   }
   100% {
-    width: 60%;
+    width: 65%;
   }
 }
 
