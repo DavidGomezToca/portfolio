@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="David Gómez" content="width=device-width, initial-scale=1.0" />
+    <title>David Gómez</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="resources/img/Portfolio/File.ico"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scripts/main.js"></script>
+    <script src="scripts/translate/translate-espanol.js"></script>
+    <script src="scripts/translate/translate-frances.js"></script>
+    <script src="scripts/translate/translate-ingles.js"></script>
+    <script src="scripts/translate/translate-portugues.js"></script>
+  </head>
+  <body>
+    <div class="header-container">
+      <header>
+        <div class="logo">
+          <a href="#home">David Gómez</a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li>
+              <a class="t_home" href="#home" onclick="selectOption()"></a>
+            </li>
+            <li>
+              <a class="t_aboutMe" href="#aboutme" onclick="selectOption()"></a>
+            </li>
+            <li>
+              <a class="t_skills" href="#skills" onclick="selectOption()"></a>
+            </li>
+            <li>
+              <a
+                class="t_curriculum"
+                href="#curriculum"
+                onclick="selectOption()"
+              ></a>
+            </li>
+            <li>
+              <a class="t_degrees" href="#degrees" onclick="selectOption()"></a>
+            </li>
+            <li>
+              <a
+                class="t_portfolio"
+                href="#portfolio"
+                onclick="selectOption()"
+              ></a>
+            </li>
+            <li>
+              <a class="t_contact" href="#contact" onclick="selectOption()"></a>
+            </li>
+            <li>
+              <button
+                id="toggletheme"
+                class="fa-regular fa-xl fa-moon"
+                onclick="selectOption()"
+              ></button>
+            </li>
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="toggleOptionsMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="togglelanguage" onclick="toggleLanguagesMenu()">
+          <img id="language-flag" alt="Current Language" />
+          <div id="languages-menu">
+            <ul>
+              <li>
+                <div class="language" id="espanol">
+                  ES
+                  <img
+                    src="resources/img/Portfolio/Languages/Español.jpg"
+                    alt="Español"
+                  />
+                </div>
+              </li>
+              <li>
+                <div class="language" id="frances">
+                  FR
+                  <img
+                    src="resources/img/Portfolio/Languages/Frances.png"
+                    alt="Français"
+                  />
+                </div>
+              </li>
+              <li>
+                <div class="language" id="ingles">
+                  EN
+                  <img
+                    src="resources/img/Portfolio/Languages/Ingles.png"
+                    alt="English"
+                  />
+                </div>
+              </li>
+              <li>
+                <div class="language" id="portugues">
+                  PT
+                  <img
+                    src="resources/img/Portfolio/Languages/Portugues.png"
+                    alt="Português"
+                  />
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <section id="home" class="home">
+      <div class="banner-content">
+        <div class="img-container">
+          <img src="resources/img/Portfolio/DavidGomez.jpg" alt="David Gómez" />
+        </div>
+        <h1>David Gómez</h1>
+        <h2 id="t-01"></h2>
+        <div class="social-media">
+          <a
+            href="https://www.linkedin.com/in/david-alejandro-gomez-toca"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/DavidGomezToca" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="aboutme" class="aboutme">
+      <div class="content-section">
+        <h2 class="t_aboutMe"></h2>
+        <span id="t-02" class="presentacion"></span><br />
+        <p id="t-03"></p>
+        <div class="row">
+          <div class="column">
+            <h3 id="t-04"></h3>
+            <ul>
+              <li><strong id="t-05"></strong> 20</li>
+              <li><strong id="t-06"></strong> +34 633 11 85 77</li>
+              <li><strong id="t-07"></strong> david.gomez.devops@gmail.com</li>
+              <li><strong id="t-08"></strong> ES / FR / EN / PT</li>
+            </ul>
+          </div>
+          <div class="column">
+            <h3 id="t-09"></h3>
+            <div class="interests-container">
+              <div class="interest">
+                <i class="fa-solid fa-gamepad"></i>
+                <span id="t-10"></span>
+              </div>
+              <div class="interest">
+                <i class="fa-solid fa-code"></i>
+                <span id="t-11"></span>
+              </div>
+              <div class="interest">
+                <i class="fa-solid fa-chess"></i>
+                <span id="t-12"></span>
+              </div>
+              <div class="interest">
+                <i class="fa-solid fa-basketball"></i>
+                <span id="t-13"></span>
+              </div>
+              <div class="interest">
+                <i class="fa-solid fa-headphones"></i>
+                <span id="t-14"></span>
+              </div>
+              <div class="interest">
+                <i class="fa-solid fa-palette"></i>
+                <span id="t-15"></span>
+              </div>
+              <div class="interest">
+                <i class="fa-solid fa-plane"></i>
+                <span id="t-16"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button>
+          <a
+            id="t-17"
+            class="download-button"
+            download="CV David Gomez"
+            href="resources/pdfs/CV David Gomez.pdf"
+          ></a>
+          <i class="fa-solid fa-download"></i>
+          <span class="overlay"></span>
+        </button>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="content-section">
+        <h2 class="t_skills"></h2>
+        <div class="row">
+          <div class="column">
+            <h3>Technical Skills</h3>
+            <div class="skill">
+              <span>HTML & CSS</span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Javascript</span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Java</span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Python</span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>C#</span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>MySQL</span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Android Studio</span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Unity</span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>GIT</span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <h3>Profesional Skills</h3>
+            <div class="skill">
+              <span id="t-18"></span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span id="t-19"></span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span id="t-20"></span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span id="t-21"></span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="curriculum" class="curriculum">
+      <div class="content-section">
+        <h2 class="t_curriculum"></h2>
+        <div class="row">
+          <div class="column left">
+            <h3 id="t-22"></h3>
+            <div class="item lt">
+              <h4 id="t-23"></h4>
+              <h4 id="t-24"></h4>
+              <a
+                id="t-41"
+                class="institution"
+                href="https://www.qualentum.com/"
+                target="_blank"
+              ></a>
+              <span class="date">2021 - 2023</span>
+              <p></p>
+              <div class="connectorlt">
+                <div class="circlelt"></div>
+              </div>
+            </div>
+            <div class="item lt">
+              <h4 id="t-25"></h4>
+              <h4 id="t-26"></h4>
+              <a
+                id="t-42"
+                class="institution"
+                href="https://www.centroafuera.es/"
+                target="_blank"
+              ></a>
+              <span class="date">2019 - 2021</span>
+              <p></p>
+              <div class="connectorlt">
+                <div class="circlelt"></div>
+              </div>
+            </div>
+          </div>
+          <div class="column right">
+            <h3 id="t-27"></h3>
+            <div class="item rt">
+              <h4 id="t-28"></h4>
+              <a
+                class="institution"
+                href="https://www.soprasteria.es/"
+                target="_blank"
+                >Sopra Steria</a
+              >
+              <span class="date">03/2023 - 06/2023</span>
+              <p id="t-29"></p>
+              <p id="t-30" class="used"></p>
+              <div class="connectorrt">
+                <div class="circulort"></div>
+              </div>
+            </div>
+            <div class="item rt">
+              <h4 id="t-31"></h4>
+              <a
+                class="institution"
+                href="https://reparacionordenadoresmadrid.net/"
+                target="_blank"
+                >Recovery PC</a
+              >
+              <span class="date">04/2021 - 06/2021</span>
+              <p id="t-32"></p>
+              <p id="t-33" class="used"></p>
+              <div class="connectorrt">
+                <div class="circulort"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="degrees" class="degrees">
+      <div class="content-section">
+        <h2 class="t_degrees"></h2>
+        <div class="galery">
+          <div class="certificate">
+            <a
+              href="https://www.udemy.com/certificate/UC-5887a4b4-0466-4748-bf10-541f245c3985/"
+              target="_blank"
+              ><img
+                id="t-68"
+                src="resources/img/Certificates/Laravel 9 - UC-5887a4b4-0466-4748-bf10-541f245c3985.jpg"
+              />
+              <div class="overlay">
+                <h3 id="t-69"></h3>
+                <p id="t-70"></p>
+              </div>
+            </a>
+          </div>
+          <div class="certificate">
+            <a
+              href="https://www.udemy.com/certificate/UC-c1c39800-2bb9-4050-9ffc-2effb74bdad7"
+              target="_blank"
+              ><img
+                id="t-58"
+                src="resources/img/Certificates/SQL - MySQL for Data Analytics and Business Intelligence - UC-c1c39800-2bb9-4050-9ffc-2effb74bdad7.jpg"
+              />
+              <div class="overlay">
+                <h3 id="t-46"></h3>
+                <p>Udemy</p>
+              </div>
+            </a>
+          </div>
+          <div class="certificate">
+            <a
+              href="resources/pdfs/Cert_MAD_CF_EC(L) --- Certificado Madrid Ciclos Formativos Estudios Completos _David Alejandro Gómez.pdf"
+              target="_blank"
+              ><img
+                id="t-56"
+                src="resources/img/Certificates/Cert_MAD_CF_EC(L) --- Certificado Madrid Ciclos Formativos Estudios Completos _David Alejandro Gómez.png"
+              />
+              <div class="overlay">
+                <h3 id="t-43"></h3>
+                <p id="t-44"></p>
+              </div>
+            </a>
+          </div>
+          <div class="certificate">
+            <a
+              href="resources/pdfs/DIPLOMA BLOCKCHAIN 1 David Alejandro Gómez Toca.pdf"
+              target="_blank"
+              ><img
+                id="t-57"
+                src="resources/img/Certificates/DIPLOMA BLOCKCHAIN 1 David Alejandro Gómez Toca.png"
+              />
+              <div class="overlay">
+                <h3 id="t-45"></h3>
+                <p>UNIR</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+      <div class="content-section">
+        <h2 class="t_portfolio"></h2>
+        <div class="galery">
+          <div class="project">
+            <a
+              href="https://github.com/DavidGomezToca/cozy-coffee"
+              target="_blank"
+              ><img
+                id="t-71"
+                src="resources/img/Projects/Project Cozy Coffee.png"
+              />
+              <div class="overlay">
+                <h3 id="t-72"></h3>
+                <p>Laravel & React</p>
+              </div>
+            </a>
+          </div>
+          <div class="project">
+            <a
+              href="https://github.com/FANTAS666IXI/F6X-POKEMON-2D"
+              target="_blank"
+              ><img
+                id="t-73"
+                src="resources/img/Projects/Project Pokemon 2D.png"
+              />
+              <div class="overlay">
+                <h3 id="t-74"></h3>
+                <p>C#</p>
+              </div>
+            </a>
+          </div>
+          <div class="project">
+            <a
+              href="https://github.com/DavidGomezToca/visual-stagram"
+              target="_blank"
+              ><img
+                id="t-59"
+                src="resources/img/Projects/Project VisualStagram.png"
+              />
+              <div class="overlay">
+                <h3 id="t-47"></h3>
+                <p>Laravel</p>
+              </div>
+            </a>
+          </div>
+          <div class="project">
+            <a
+              href="https://github.com/FANTAS666IXI/F6X-GOTHIC-VANIA"
+              target="_blank"
+              ><img
+                id="t-61"
+                src="resources/img/Projects/Project Gothic Vania.png"
+              />
+              <div class="overlay">
+                <h3 id="t-54"></h3>
+                <p>C#</p>
+              </div>
+            </a>
+          </div>
+          <div class="project">
+            <a
+              href="https://github.com/FANTAS666IXI/F6X-THE-GOLDEN-TOUCH"
+              target="_blank"
+              ><img
+                id="t-62"
+                src="resources/img/Projects/Project The Golden Touch.png"
+              />
+              <div class="overlay">
+                <h3 id="t-55"></h3>
+                <p>C#</p>
+              </div>
+            </a>
+          </div>
+          <div class="project">
+            <a
+              href="https://github.com/DavidGomezToca/TestAlgoritmia_09_03_23"
+              target="_blank"
+              ><img
+                id="t-60"
+                src="resources/img/Projects/Project Algorithmic Test.png"
+              />
+              <div class="overlay">
+                <h3 id="t-48"></h3>
+                <p>Java</p>
+              </div>
+            </a>
+          </div>
+          <div class="project">
+            <a
+              href="https://github.com/DavidGomezToca/AE-2.-Manejo-de-conectores-de-BBDD"
+              target="_blank"
+              ><img
+                id="t-64"
+                src="resources/img/Projects/Project BBDD Connectors.png"
+              />
+              <div class="overlay">
+                <h3 id="t-50"></h3>
+                <p>Java</p>
+              </div>
+            </a>
+          </div>
+          <div class="project">
+            <a
+              href="https://github.com/DavidGomezToca/AE-1_Manejo_De_Ficheros"
+              target="_blank"
+              ><img
+                id="t-66"
+                src="resources/img/Projects/Project Managing Files.png"
+              />
+              <div class="overlay">
+                <h3 id="t-52"></h3>
+                <p>Java</p>
+              </div>
+            </a>
+          </div>
+          <div class="project">
+            <a
+              href="https://github.com/DavidGomezToca/AE2-Control-de-versiones-con-Git-GitHub-y-un-IDE"
+              target="_blank"
+              ><img
+                id="t-65"
+                src="resources/img/Projects/Project Versioning.png"
+              />
+              <div class="overlay">
+                <h3 id="t-51"></h3>
+                <p>Git</p>
+              </div>
+            </a>
+          </div>
+          <div class="project">
+            <a
+              href="https://github.com/DavidGomezToca/AE-3-Pruebas-del-software-con-JUnit"
+              target="_blank"
+              ><img
+                id="t-63"
+                src="resources/img/Projects/Project JUnit Tests.png"
+              />
+              <div class="overlay">
+                <h3 id="t-49"></h3>
+                <p>Java</p>
+              </div>
+            </a>
+          </div>
+          <div class="project">
+            <a
+              href="https://github.com/DavidGomezToca/AE-1.-Carrito-de-la-compra"
+              target="_blank"
+              ><img id="t-67" src="resources/img/Projects/Project Cart.png" />
+              <div class="overlay">
+                <h3 id="t-53"></h3>
+                <p>HTML, CSS & JS</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="content-section">
+        <h2 class="t_contact"></h2>
+        <div class="row">
+          <div class="column">
+            <div class="info">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span id="t-34">España, Madrid</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-mobile-screen"></i>
+                  +34 633 11 85 77
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  david.gomez.devops@gmail.com
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="column">
+            <form action="https://formspree.io/f/mknlrgbd" method="POST">
+              <input id="t-35" type="text" name="Nombre" required />
+              <input id="t-36" type="text" name="Número de teléfono" />
+              <input id="t-37" type="email" name="Email" required />
+              <input id="t-38" type="text" name="Asunto" required />
+              <textarea
+                id="t-39"
+                name="Mensaje"
+                cols="30"
+                rows="10"
+                required
+              ></textarea>
+              <button>
+                <span id="t-40"></span>
+                <i class="fa-solid fa-paper-plane"></i>
+                <span class="overlay"></span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <a href="#home" class="up">
+        <i class="fa-solid fa-angles-up"></i>
+      </a>
+      <div class="social-media">
+        <a
+          href="https://www.linkedin.com/in/david-alejandro-gomez-toca"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/DavidGomezToca" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </div>
+      <span id="copyright"></span>
+    </footer>
+    <a id="back-to-top-button" class="back-to-top" href="#home"
+      ><i class="fa-solid fa-angles-up"></i
+    ></a>
+  </body>
+</html>
