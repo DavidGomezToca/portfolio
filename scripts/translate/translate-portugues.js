@@ -126,16 +126,16 @@ function translate_portugues() {
     t_29.innerHTML = "Durante meu estágio na empresa, fui responsável pela manutenção e desenvolvimento full stack de um aplicativo de gestão de pessoal para uma entidade governamental. Personalizando o front end e trabalhando com conexões a bancos de dados. A equipe era composta por seis pessoas e utilizávamos a metodologia Agile.";
 
     let t_30 = document.getElementById("t-30");
-    t_30.innerHTML = "Usando HTML 5, CSS, React, Java, MySQL, DBeaver e Git.";
+    t_30.innerHTML = "Usando Vue.js, Java, MySQL, DBeaver, Git, GitLab, HTML5 e CSS";
 
     let t_31 = document.getElementById("t-31");
     t_31.innerHTML = "Estágio Grau Médio";
 
     let t_32 = document.getElementById("t-32");
-    t_32.innerHTML = "Manutenção de front end e melhoria de posicionamento SEO de sites existentes.";
+    t_32.innerHTML = "Manutenção de front end otimização de tempos de carregamento e melhoria de posicionamento SEO de sites desenvolvidos pela empresa.";
 
     let t_33 = document.getElementById("t-33");
-    t_33.innerHTML = "Usando WordPress, HTML 5, CSS, JavaScript e ferramentas analíticas SEO.";
+    t_33.innerHTML = "Usando WordPress, JavaScript, Google Analytics, outras ferramentas analíticas SEO, HTML5 e CSS";
 
     let t_34 = document.getElementById("t-34");
     t_34.innerHTML = "Espanha, Madrid";

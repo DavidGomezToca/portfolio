@@ -126,16 +126,16 @@ function translate_ingles() {
     t_29.innerHTML = "During my internship, I was responsible for the full stack maintenance and development of a personnel management application for a government entity. Customizing the front end and working with database connections. The team consisted of six people, and we followed Agile methodology.";
 
     let t_30 = document.getElementById("t-30");
-    t_30.innerHTML = "Use of HTML 5, CSS, React, Java, MySQL, DBeaver and Git.";
+    t_30.innerHTML = "Use of Vue.js, Java, MySQL, DBeaver, Git, GitLab, HTML5 and CSS.";
 
     let t_31 = document.getElementById("t-31");
     t_31.innerHTML = "Intermediate Degree Internship";
 
     let t_32 = document.getElementById("t-32");
-    t_32.innerHTML = "Front end maintenance and improved SEO positioning of existing sites.";
+    t_32.innerHTML = "Front end maintenance, load time optimization and improved SEO positioning of websites developed by the company.";
 
     let t_33 = document.getElementById("t-33");
-    t_33.innerHTML = "Use of WordPress, HTML 5, CSS, JavaScript and SEO analytics tools.";
+    t_33.innerHTML = "Use of WordPress, JavaScript, Google Analytics, others SEO analytics tools, HTML5 and CSS";
 
     let t_34 = document.getElementById("t-34");
     t_34.innerHTML = "Spain, Madrid";

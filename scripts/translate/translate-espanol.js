@@ -126,7 +126,7 @@ function translate_espanol() {
     t_29.innerHTML = "Durante mis prácticas de empresa, me encargué del mantenimiento y desarrollo full stack de una aplicación de gestión de personal para una entidad del Estado. Personalizando el front end y trabajando con conexiones a bases de datos. El equipo constaba de seis personas y utilizábamos metodología Agile.";
 
     let t_30 = document.getElementById("t-30");
-    t_30.innerHTML = "Uso de React, Java, MySQL, DBeaver, Git, GitLab, HTML 5 y CSS.";
+    t_30.innerHTML = "Uso de Vue.js, Java, MySQL, DBeaver, Git, GitLab, HTML5 y CSS.";
 
     let t_31 = document.getElementById("t-31");
     t_31.innerHTML = "Prácticas Grado Medio";
@@ -135,7 +135,7 @@ function translate_espanol() {
     t_32.innerHTML = "Mantenimiento de front end, optimización de tiempos de carga y mejora de posicionamiento SEO de sitios web desarrollados por la empresa.";
 
     let t_33 = document.getElementById("t-33");
-    t_33.innerHTML = "Uso de WordPress, JavaScript, Google Analytics y otras herramientas analíticas, HTML 5 y CSS.";
+    t_33.innerHTML = "Uso de WordPress, JavaScript, Google Analytics, otras herramientas analíticas, HTML5 y CSS.";
 
     let t_34 = document.getElementById("t-34");
     t_34.innerHTML = "España, Madrid";

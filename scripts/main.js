@@ -5,11 +5,14 @@ document.addEventListener('DOMContentLoaded', function () {
     const toggleThemeButton = document.getElementById('toggletheme');
     const body = document.body;
     const copyrightElement = document.getElementById("copyright");
-    const currentYear = new Date().getFullYear();
-    const copyrightText = "COPYRIGHT " + currentYear;
+    const copyrightText = "COPYRIGHT 2024";
+    const portfolioVersionElement = document.getElementById("portfolio-version");
+    const portfolioVersionNumber = "v1.0.0"
+    const portfolioVersionText = "PORTFOLIO " + portfolioVersionNumber;
     const backToTopButton = document.querySelector("#back-to-top-button");
 
     copyrightElement.textContent = copyrightText;
+    portfolioVersionElement.textContent = portfolioVersionText;
 
     let favoriteTheme = localStorage.getItem('favorite-theme');
     switch (favoriteTheme) {

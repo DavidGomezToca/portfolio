@@ -1276,6 +1276,10 @@ footer .up {
   color: #3a3a3a;
 }
 
+#portfolio-version {
+  margin-right: 30px;
+}
+
 .back-to-top {
   position: fixed;
   display: none;
