@@ -259,4 +259,10 @@ function translate_espanol() {
 
     let t_74 = document.getElementById("t-74");
     t_74.innerHTML = "Pokémon 2D";
+
+    let t_75 = document.getElementById("t-75");
+    t_75.alt = "Proyecto You Stream";
+
+    let t_76 = document.getElementById("t-76");
+    t_76.innerHTML = "You Stream";
 };

@@ -259,4 +259,10 @@ function translate_frances() {
 
     let t_74 = document.getElementById("t-74");
     t_74.innerHTML = "Pokemon 2D";
+
+    let t_75 = document.getElementById("t-75");
+    t_75.alt = "Projet You Stream";
+
+    let t_76 = document.getElementById("t-76");
+    t_76.innerHTML = "You Stream";
 };
