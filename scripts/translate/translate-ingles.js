@@ -265,4 +265,10 @@ function translate_ingles() {
 
     let t_76 = document.getElementById("t-76");
     t_76.innerHTML = "You Stream";
+
+    let t_77 = document.getElementById("t-77");
+    t_77.alt = "Certificate - IES CLA - ESO";
+
+    let t_78 = document.getElementById("t-78");
+    t_78.innerHTML = "ESO - Computer Science";
 };
