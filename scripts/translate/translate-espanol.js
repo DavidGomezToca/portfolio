@@ -102,7 +102,7 @@ function translate_espanol() {
     t_21.innerHTML = "Dedicación";
 
     let t_22 = document.getElementById("t-22");
-    t_22.innerHTML = "Educación y formación";
+    t_22.innerHTML = "Educación y Formación";
 
     let t_23 = document.getElementById("t-23");
     t_23.innerHTML = "FP Grado Superior";
@@ -117,7 +117,7 @@ function translate_espanol() {
     t_26.innerHTML = "Sistemas Microinformáticos y Redes";
 
     let t_27 = document.getElementById("t-27");
-    t_27.innerHTML = "Experiencia laboral";
+    t_27.innerHTML = "Experiencia Laboral";
 
     let t_28 = document.getElementById("t-28");
     t_28.innerHTML = "Prácticas Grado Superior";
@@ -271,4 +271,34 @@ function translate_espanol() {
 
     let t_78 = document.getElementById("t-78");
     t_78.innerHTML = "ESO - Informática";
+
+    let t_79 = document.getElementById("t-79");
+    t_79.innerHTML = "Habilidades Técnicas";
+
+    let t_80 = document.getElementById("t-80");
+    t_80.innerHTML = "Habilidades Profesionales";
+
+    let t_81 = document.getElementById("t-81");
+    t_81.innerHTML = "Adaptabilidad";
+
+    let t_82 = document.getElementById("t-82");
+    t_82.innerHTML = "Atención a los detalles";
+
+    let t_83 = document.getElementById("t-83");
+    t_83.innerHTML = "Pensamiento crítico";
+
+    let t_84 = document.getElementById("t-84");
+    t_84.innerHTML = "Empatía";
+
+    let t_85 = document.getElementById("t-85");
+    t_85.innerHTML = "Organización";
+
+    let t_86 = document.getElementById("t-86");
+    t_86.innerHTML = "Paciencia";
+
+    let t_87 = document.getElementById("t-87");
+    t_87.innerHTML = "Resolución de problemas";
+
+    let t_88 = document.getElementById("t-88");
+    t_88.innerHTML = "Responsabilidad";
 };

@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const copyrightElement = document.getElementById("copyright");
     const copyrightText = "COPYRIGHT 2024";
     const portfolioVersionElement = document.getElementById("portfolio-version");
-    const portfolioVersionNumber = "v1.2.1"
+    const portfolioVersionNumber = "v1.3.0"
     const portfolioVersionText = "PORTFOLIO " + portfolioVersionNumber;
     const backToTopButton = document.querySelector("#back-to-top-button");
 
@@ -142,20 +142,29 @@ function effectsSkills() {
         habilidades[0].classList.add("react")
         habilidades[1].classList.add("laravel")
         habilidades[2].classList.add("javascript")
-        habilidades[3].classList.add("wordpress")
-        habilidades[4].classList.add("mySQL")
-        habilidades[5].classList.add("php")
-        habilidades[6].classList.add("python")
-        habilidades[7].classList.add("kotlin")
-        habilidades[8].classList.add("java")
-        habilidades[9].classList.add("cSharp")
-        habilidades[10].classList.add("htmlCss")
-        habilidades[11].classList.add("androidStudio")
-        habilidades[12].classList.add("unity")
-        habilidades[13].classList.add("git")
-        habilidades[14].classList.add("communication")
-        habilidades[15].classList.add("teamwork")
-        habilidades[16].classList.add("creativity")
-        habilidades[17].classList.add("dedication")
+        habilidades[3].classList.add("dotNet")
+        habilidades[4].classList.add("wordpress")
+        habilidades[5].classList.add("mySQL")
+        habilidades[6].classList.add("php")
+        habilidades[7].classList.add("python")
+        habilidades[8].classList.add("kotlin")
+        habilidades[9].classList.add("java")
+        habilidades[10].classList.add("cSharp")
+        habilidades[11].classList.add("htmlCss")
+        habilidades[12].classList.add("androidStudio")
+        habilidades[13].classList.add("unity")
+        habilidades[14].classList.add("git")
+        habilidades[15].classList.add("problemSolving")
+        habilidades[16].classList.add("criticalThinking")
+        habilidades[17].classList.add("creativity")
+        habilidades[18].classList.add("adaptability")
+        habilidades[19].classList.add("teamwork")
+        habilidades[20].classList.add("communication")
+        habilidades[21].classList.add("attentionToDetails")
+        habilidades[22].classList.add("responsibility")
+        habilidades[23].classList.add("empathy")
+        habilidades[24].classList.add("organization")
+        habilidades[25].classList.add("dedication")
+        habilidades[26].classList.add("patience")
     }
 };

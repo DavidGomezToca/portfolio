@@ -48,7 +48,7 @@ function translate_portugues() {
     t_03.innerHTML = "Sou Técnico em Desenvolvimento de Aplicações Multiplataforma com habilidades de destaque em Java. O meu enfoque na excelência e no conhecimento atualizado em desenvolvimento multiplataforma me permite contribuir eficazmente em equipes multidisciplinares. Procuro aplicar minha experiência para impulsionar o sucesso em projetos de desenvolvimento.";
 
     let t_04 = document.getElementById("t-04");
-    t_04.innerHTML = "Dados pessoais";
+    t_04.innerHTML = "Dados Pessoais";
 
     let t_05 = document.getElementById("t-05");
     t_05.innerHTML = "Idade :";
@@ -63,13 +63,13 @@ function translate_portugues() {
     t_08.innerHTML = "Idiomas :";
 
     let t_09 = document.getElementById("t-09");
-    t_09.innerHTML = "Meus interesses";
+    t_09.innerHTML = "Interesses";
 
     let t_10 = document.getElementById("t-10");
     t_10.innerHTML = "JOGOS";
 
     let t_11 = document.getElementById("t-11");
-    t_11.innerHTML = "DESENVOLVIMENTO";
+    t_11.innerHTML = "DESENVOL...";
 
     let t_12 = document.getElementById("t-12");
     t_12.innerHTML = "XADREZ";
@@ -102,7 +102,7 @@ function translate_portugues() {
     t_21.innerHTML = "Dedicação";
 
     let t_22 = document.getElementById("t-22");
-    t_22.innerHTML = "Educação e formação";
+    t_22.innerHTML = "Educação e Formação";
 
     let t_23 = document.getElementById("t-23");
     t_23.innerHTML = "FP Grau Superior";
@@ -117,7 +117,7 @@ function translate_portugues() {
     t_26.innerHTML = "Sistemas Microinformáticos e Redes";
 
     let t_27 = document.getElementById("t-27");
-    t_27.innerHTML = "Experiência profissional";
+    t_27.innerHTML = "Experiência Profissional";
 
     let t_28 = document.getElementById("t-28");
     t_28.innerHTML = "Estágio Superior";
@@ -271,4 +271,34 @@ function translate_portugues() {
 
     let t_78 = document.getElementById("t-78");
     t_78.innerHTML = "ESO - Informática";
+
+    let t_79 = document.getElementById("t-79");
+    t_79.innerHTML = "Habilidades Técnicas";
+
+    let t_80 = document.getElementById("t-80");
+    t_80.innerHTML = "Habilidades Profissionais";
+
+    let t_81 = document.getElementById("t-81");
+    t_81.innerHTML = "Adaptabilidade";
+
+    let t_82 = document.getElementById("t-82");
+    t_82.innerHTML = "Atenção aos detalhes";
+
+    let t_83 = document.getElementById("t-83");
+    t_83.innerHTML = "Pensamento crítico";
+
+    let t_84 = document.getElementById("t-84");
+    t_84.innerHTML = "Empatia";
+
+    let t_85 = document.getElementById("t-85");
+    t_85.innerHTML = "Organização";
+
+    let t_86 = document.getElementById("t-86");
+    t_86.innerHTML = "Paciência";
+
+    let t_87 = document.getElementById("t-87");
+    t_87.innerHTML = "Resolução de problemas";
+
+    let t_88 = document.getElementById("t-88");
+    t_88.innerHTML = "Responsabilidade";
 };

@@ -532,6 +532,7 @@ h2 {
   width: 80%;
   position: relative;
   margin-bottom: 30px;
+  border-radius: 100px;
 }
 
 .dark-theme .skills .skill .skill-bar {
@@ -547,6 +548,7 @@ h2 {
   top: 0;
   left: 0;
   height: 8px;
+  border-radius: 100px;
 }
 
 .dark-theme .skills .skill .progress {
@@ -585,7 +587,7 @@ h2 {
     width: 0%;
   }
   100% {
-    width: 70%;
+    width: 65%;
   }
 }
 
@@ -597,7 +599,7 @@ h2 {
     width: 0%;
   }
   100% {
-    width: 65%;
+    width: 55%;
   }
 }
 
@@ -609,7 +611,19 @@ h2 {
     width: 0%;
   }
   100% {
-    width: 80%;
+    width: 70%;
+  }
+}
+
+.skills .skill .dotNet {
+  animation: 2s dotNet forwards;
+}
+@keyframes dotNet {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 30%;
   }
 }
 
@@ -621,7 +635,7 @@ h2 {
     width: 0%;
   }
   100% {
-    width: 75%;
+    width: 65%;
   }
 }
 
@@ -633,7 +647,7 @@ h2 {
     width: 0%;
   }
   100% {
-    width: 70%;
+    width: 60%;
   }
 }
 
@@ -645,7 +659,7 @@ h2 {
     width: 0%;
   }
   100% {
-    width: 60%;
+    width: 55%;
   }
 }
 
@@ -657,7 +671,7 @@ h2 {
     width: 0%;
   }
   100% {
-    width: 70%;
+    width: 60%;
   }
 }
 
@@ -669,7 +683,7 @@ h2 {
     width: 0%;
   }
   100% {
-    width: 60%;
+    width: 50%;
   }
 }
 
@@ -681,7 +695,7 @@ h2 {
     width: 0%;
   }
   100% {
-    width: 80%;
+    width: 70%;
   }
 }
 
@@ -693,7 +707,7 @@ h2 {
     width: 0%;
   }
   100% {
-    width: 85%;
+    width: 75%;
   }
 }
 
@@ -705,7 +719,7 @@ h2 {
     width: 0%;
   }
   100% {
-    width: 90%;
+    width: 80%;
   }
 }
 
@@ -717,7 +731,7 @@ h2 {
     width: 0%;
   }
   100% {
-    width: 65%;
+    width: 55%;
   }
 }
 
@@ -729,7 +743,7 @@ h2 {
     width: 0%;
   }
   100% {
-    width: 100%;
+    width: 90%;
   }
 }
 
@@ -741,31 +755,31 @@ h2 {
     width: 0%;
   }
   100% {
-    width: 90%;
+    width: 80%;
   }
 }
 
-.skills .skill .communication {
-  animation: 2s communication forwards;
+.skills .skill .problemSolving {
+  animation: 2s problemSolving forwards;
 }
-@keyframes communication {
+@keyframes problemSolving {
   0% {
     width: 0%;
   }
   100% {
-    width: 90%;
+    width: 95%;
   }
 }
 
-.skills .skill .teamwork {
-  animation: 2s teamwork forwards;
+.skills .skill .criticalThinking {
+  animation: 2s criticalThinking forwards;
 }
-@keyframes teamwork {
+@keyframes criticalThinking {
   0% {
     width: 0%;
   }
   100% {
-    width: 85%;
+    width: 100%;
   }
 }
 
@@ -781,10 +795,106 @@ h2 {
   }
 }
 
+.skills .skill .adaptability {
+  animation: 2s adaptability forwards;
+}
+@keyframes adaptability {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
+.skills .skill .teamwork {
+  animation: 2s teamwork forwards;
+}
+@keyframes teamwork {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
+.skills .skill .communication {
+  animation: 2s communication forwards;
+}
+@keyframes communication {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
+.skills .skill .attentionToDetails {
+  animation: 2s attentionToDetails forwards;
+}
+@keyframes attentionToDetails {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.skills .skill .responsibility {
+  animation: 2s responsibility forwards;
+}
+@keyframes responsibility {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
+.skills .skill .empathy {
+  animation: 2s empathy forwards;
+}
+@keyframes empathy {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.skills .skill .organization {
+  animation: 2s organization forwards;
+}
+@keyframes organization {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
 .skills .skill .dedication {
   animation: 2s dedication forwards;
 }
 @keyframes dedication {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.skills .skill .patience {
+  animation: 2s patience forwards;
+}
+@keyframes patience {
   0% {
     width: 0%;
   }

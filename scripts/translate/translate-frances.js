@@ -69,7 +69,7 @@ function translate_frances() {
     t_10.innerHTML = "JEUX";
 
     let t_11 = document.getElementById("t-11");
-    t_11.innerHTML = "DÉVELOPPEMENT";
+    t_11.innerHTML = "DÉVELOP...";
 
     let t_12 = document.getElementById("t-12");
     t_12.innerHTML = "ÉCHECS";
@@ -102,7 +102,7 @@ function translate_frances() {
     t_21.innerHTML = "Dévoument";
 
     let t_22 = document.getElementById("t-22");
-    t_22.innerHTML = "Éducation et formation";
+    t_22.innerHTML = "Éducation et Formation";
 
     let t_23 = document.getElementById("t-23");
     t_23.innerHTML = "FP Grade Supérieur";
@@ -117,7 +117,7 @@ function translate_frances() {
     t_26.innerHTML = "Systèmes Microinformatiques et Réseaux";
 
     let t_27 = document.getElementById("t-27");
-    t_27.innerHTML = "Expérience professionnelle";
+    t_27.innerHTML = "Expérience Professionnelle";
 
     let t_28 = document.getElementById("t-28");
     t_28.innerHTML = "Pratiques Grade Supérieur";
@@ -271,4 +271,34 @@ function translate_frances() {
 
     let t_78 = document.getElementById("t-78");
     t_78.innerHTML = "ESO - Informatique";
+
+    let t_79 = document.getElementById("t-79");
+    t_79.innerHTML = "Compétences Techniques";
+
+    let t_80 = document.getElementById("t-80");
+    t_80.innerHTML = "Compétences Professionnelles";
+
+    let t_81 = document.getElementById("t-81");
+    t_81.innerHTML = "Adaptabilité";
+
+    let t_82 = document.getElementById("t-82");
+    t_82.innerHTML = "Attention aux détails";
+
+    let t_83 = document.getElementById("t-83");
+    t_83.innerHTML = "Réflexion critique";
+
+    let t_84 = document.getElementById("t-84");
+    t_84.innerHTML = "Empathie";
+
+    let t_85 = document.getElementById("t-85");
+    t_85.innerHTML = "Organisation";
+
+    let t_86 = document.getElementById("t-86");
+    t_86.innerHTML = "Patience";
+
+    let t_87 = document.getElementById("t-87");
+    t_87.innerHTML = "Résolution de problèmes";
+
+    let t_88 = document.getElementById("t-88");
+    t_88.innerHTML = "Responsabilité";
 };
