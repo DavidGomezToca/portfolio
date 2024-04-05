@@ -204,7 +204,7 @@ function translate_frances() {
     t_55.innerHTML = "The Golden Touch";
 
     let t_56 = document.getElementById("t-56");
-    t_56.alt = "Certificat - Grade Supérieur - DAM";
+    t_56.alt = "Certificat - Edix Éducation - DAM";
 
     let t_57 = document.getElementById("t-57");
     t_57.alt = "Certificat - UNIR - Blockchain";
@@ -246,7 +246,7 @@ function translate_frances() {
     t_69.innerHTML = "Laravel 9 - Développement Web";
 
     let t_70 = document.getElementById("t-70");
-    t_70.innerHTML = "Udemy";
+    t_70.innerHTML = "Grade Intermédiaire - Systèmes Microinformatiques et Réseaux";
 
     let t_71 = document.getElementById("t-71");
     t_71.alt = "Projet Cozy Coffee";
@@ -301,4 +301,7 @@ function translate_frances() {
 
     let t_88 = document.getElementById("t-88");
     t_88.innerHTML = "Responsabilité";
+
+    let t_89 = document.getElementById("t-89");
+    t_89.alt = "Certificat - CESA - Systèmes Microinformatiques et Réseaux";
 };

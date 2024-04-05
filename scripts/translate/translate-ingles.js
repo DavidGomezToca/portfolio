@@ -114,7 +114,7 @@ function translate_ingles() {
     t_25.innerHTML = "FP Intermediate Degree";
 
     let t_26 = document.getElementById("t-26");
-    t_26.innerHTML = "Sistemas Microinformáticos y Redes";
+    t_26.innerHTML = "Microinformatics and Network Systems";
 
     let t_27 = document.getElementById("t-27");
     t_27.innerHTML = "Work Experience";
@@ -204,7 +204,7 @@ function translate_ingles() {
     t_55.innerHTML = "The Golden Touch";
 
     let t_56 = document.getElementById("t-56");
-    t_56.alt = "Certificate - Higher Degree - DAM";
+    t_56.alt = "Certificate - Edix Education - DAM";
 
     let t_57 = document.getElementById("t-57");
     t_57.alt = "Certificate - UNIR - Blockchain";
@@ -246,7 +246,7 @@ function translate_ingles() {
     t_69.innerHTML = "Laravel 9 - Web Development";
 
     let t_70 = document.getElementById("t-70");
-    t_70.innerHTML = "Udemy";
+    t_70.innerHTML = "Intermediate Degree - Microinformatics and Network Systems";
 
     let t_71 = document.getElementById("t-71");
     t_71.alt = "Project Cozy Coffee";
@@ -301,4 +301,7 @@ function translate_ingles() {
 
     let t_88 = document.getElementById("t-88");
     t_88.innerHTML = "Responsibility";
+
+    let t_89 = document.getElementById("t-89");
+    t_89.alt = "Certificate - CESA - Microinformatics and Network Systems";
 };
