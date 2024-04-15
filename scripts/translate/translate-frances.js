@@ -304,4 +304,19 @@ function translate_frances() {
 
     let t_89 = document.getElementById("t-89");
     t_89.alt = "Certificat - CESA - Systèmes Microinformatiques et Réseaux";
+
+    let t_90 = document.getElementById("t-90");
+    t_90.innerHTML = "Permis :";
+
+    let t_91 = document.getElementById("t-91");
+    t_91.alt = "Projet Parkour Climbing System";
+
+    let t_92 = document.getElementById("t-92");
+    t_92.innerHTML = "Parkour Climbing System";
+
+    let t_93 = document.getElementById("t-93");
+    t_93.alt = "Projet Console Log System";
+
+    let t_94 = document.getElementById("t-94");
+    t_94.innerHTML = "Console Log System";
 };
