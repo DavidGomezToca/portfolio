@@ -261,10 +261,10 @@ function translate_ingles() {
     t_74.innerHTML = "Pokemon 2D";
 
     let t_75 = document.getElementById("t-75");
-    t_75.alt = "Project You Stream";
+    t_75.alt = "Project Pexels Stream";
 
     let t_76 = document.getElementById("t-76");
-    t_76.innerHTML = "You Stream";
+    t_76.innerHTML = "Pexels Stream";
 
     let t_77 = document.getElementById("t-77");
     t_77.alt = "Certificate - IES CLA - ESO";

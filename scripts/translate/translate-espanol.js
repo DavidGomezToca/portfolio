@@ -261,10 +261,10 @@ function translate_espanol() {
     t_74.innerHTML = "Pokémon 2D";
 
     let t_75 = document.getElementById("t-75");
-    t_75.alt = "Proyecto You Stream";
+    t_75.alt = "Proyecto Pexels Stream";
 
     let t_76 = document.getElementById("t-76");
-    t_76.innerHTML = "You Stream";
+    t_76.innerHTML = "Pexels Stream";
 
     let t_77 = document.getElementById("t-77");
     t_77.alt = "Certificado - IES CLA - ESO";
