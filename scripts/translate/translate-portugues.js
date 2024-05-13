@@ -319,4 +319,10 @@ function translate_portugues() {
 
     let t_94 = document.getElementById("t-94");
     t_94.innerHTML = "Console Log System";
+
+    let t_95 = document.getElementById("t-95");
+    t_95.alt = "Projeto Slice Delight";
+
+    let t_96 = document.getElementById("t-96");
+    t_96.innerHTML = "Slice Delight";
 };
