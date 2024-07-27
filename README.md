@@ -10,13 +10,13 @@
 
 - **STACK :**
 
-  - **PORTFOLIO** : `1.7.0`
+  - **Portfolio** : `1.8.0`
 
 ---
 
 - **URLS :**
 
-  - **Web : [Portfolio](https://davidgomeztoca.github.io/portfolio)**
+  - **Website : [Portfolio](https://davidgomeztoca.github.io/portfolio)**
 
 ---
 

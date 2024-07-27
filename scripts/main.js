@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const copyrightElement = document.getElementById("copyright");
     const copyrightText = "COPYRIGHT 2024";
     const portfolioVersionElement = document.getElementById("portfolio-version");
-    const portfolioVersionNumber = "v1.7.0"
+    const portfolioVersionNumber = "v1.8.0"
     const portfolioVersionText = "PORTFOLIO " + portfolioVersionNumber;
     const backToTopButton = document.querySelector("#back-to-top-button");
 

@@ -325,4 +325,10 @@ function translate_espanol() {
 
     let t_96 = document.getElementById("t-96");
     t_96.innerHTML = "Slice Delight";
+
+    let t_97 = document.getElementById("t-97");
+    t_97.alt = "Proyecto Bag Pro";
+
+    let t_98 = document.getElementById("t-98");
+    t_98.innerHTML = "Bag Pro";
 };
