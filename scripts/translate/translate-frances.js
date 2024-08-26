@@ -331,4 +331,10 @@ function translate_frances() {
 
     let t_98 = document.getElementById("t-98");
     t_98.innerHTML = "Bag Pro";
+
+    let t_99 = document.getElementById("t-99");
+    t_99.alt = "Projet Fair Share";
+
+    let t_100 = document.getElementById("t-100");
+    t_100.innerHTML = "Fair Share";
 };
