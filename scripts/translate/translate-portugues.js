@@ -337,4 +337,16 @@ function translate_portugues() {
 
     let t_100 = document.getElementById("t-100");
     t_100.innerHTML = "Fair Share";
+
+    let t_101 = document.getElementById("t-101");
+    t_101.alt = "Certificado - React & Typescript - Desenvolvimento Web";
+
+    let t_102 = document.getElementById("t-102");
+    t_102.innerHTML = "React & Typescript - Desenvolvimento Web";
+
+    let t_103 = document.getElementById("t-103");
+    t_103.alt = "Projeto Card Realm";
+
+    let t_104 = document.getElementById("t-104");
+    t_104.innerHTML = "Card Realm";
 };
