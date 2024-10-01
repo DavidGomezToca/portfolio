@@ -349,4 +349,16 @@ function translate_ingles() {
 
     let t_104 = document.getElementById("t-104");
     t_104.innerHTML = "Card Realm";
+
+    let t_105 = document.getElementById("t-105");
+    t_105.alt = "Project Pokewalker";
+
+    let t_106 = document.getElementById("t-106");
+    t_106.innerHTML = "Pokewalker";
+
+    let t_107 = document.getElementById("t-107");
+    t_107.alt = "Certificate - React & Redux - Web Development";
+
+    let t_108 = document.getElementById("t-108");
+    t_108.innerHTML = "React & Redux - Web Development";
 };

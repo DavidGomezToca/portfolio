@@ -349,4 +349,16 @@ function translate_portugues() {
 
     let t_104 = document.getElementById("t-104");
     t_104.innerHTML = "Card Realm";
+
+    let t_105 = document.getElementById("t-105");
+    t_105.alt = "Projeto Pokewalker";
+
+    let t_106 = document.getElementById("t-106");
+    t_106.innerHTML = "Pokewalker";
+
+    let t_107 = document.getElementById("t-107");
+    t_107.alt = "Projeto - React & Redux - Desenvolvimento Web";
+
+    let t_108 = document.getElementById("t-108");
+    t_108.innerHTML = "React & Redux - Desenvolvimento Web";
 };
