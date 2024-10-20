@@ -1,6 +1,6 @@
 # _PORTFOLIO_
 
-![THUMBNAIL](resources/img/Portfolio/Thumbnail.png)
+![THUMBNAIL](resources/img/Thumbnail.png)
 
 - **DESCRIPTION :**
 
@@ -10,7 +10,7 @@
 
 - **STACK :**
 
-  - **Portfolio** : `0.1.0`
+  - **Portfolio** : `0.2.0`
 
 ---
 
