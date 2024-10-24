@@ -1,0 +1,46 @@
+{
+  "spanish": {
+    "sections": [
+      "inicio",
+      "sobre mí",
+      "skills",
+      "curriculum",
+      "diplomas",
+      "portafolio",
+      "contacto"
+    ]
+  },
+  "french": {
+    "sections": [
+      "accueil",
+      "sur moi",
+      "skills",
+      "curriculum",
+      "diplômes",
+      "portfolio",
+      "contact"
+    ]
+  },
+  "english": {
+    "sections": [
+      "home",
+      "about me",
+      "skills",
+      "curriculum",
+      "degrees",
+      "portfolio",
+      "contact"
+    ]
+  },
+  "portuguese": {
+    "sections": [
+      "início", 
+      "sobre mim",
+      "skills",
+      "curriculum",
+      "diplomas",
+      "portfólio",
+      "contacto"
+    ]
+  }
+}

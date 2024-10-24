@@ -10,7 +10,7 @@
 
 - **STACK :**
 
-  - **Portfolio** : `0.2.0`
+  - **Portfolio** : `0.3.0`
 
 ---
 
