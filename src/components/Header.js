@@ -2,13 +2,13 @@ import React, { useContext } from 'react'
 import { ThemeContext } from '../contexts/ThemeContext'
 import { TranslationsContext } from '../contexts/TranslationsContext'
 
-function Header() {
+export default function Header() {
     const { theme, toggleTheme } = useContext(ThemeContext)
     const { language, translations, toggleLanguage } = useContext(TranslationsContext)
     const sections = translations.sections
 
     return (
-        <header className="header">
+        <header className={`header background--${theme}`}>
             <nav className="header__nav">
                 <NavLogo />
                 <NavSections />
@@ -21,7 +21,7 @@ function Header() {
     function NavLogo() {
         return (
             <div className="nav__element">
-                <a className={`nav__logo color--${theme}`} href={`#${sections[0]}`}>
+                <a className={`nav__logo color--${theme}--2`} href={`#${sections[0]}`}>
                     David Gómez
                 </a>
             </div >
@@ -40,7 +40,7 @@ function Header() {
         return (
             <li className="nav__element">
                 <a
-                    className={`nav__section color--${theme}--hover`}
+                    className={`nav__section color--${theme}--1 color--${theme}--2--hover`}
                     href={`#${section}`}
                 >
                     {`${section.toUpperCase()}`}
@@ -53,7 +53,7 @@ function Header() {
         return (
             <li className="nav__element">
                 <button
-                    className={`nav__theme__button color--${theme}--hover fa-regular fa-xl fa-moon`}
+                    className={`nav__theme__button color--${theme}--1 color--${theme}--2--hover fa-regular fa-xl fa-moon`}
                     onClick={toggleTheme}
                 />
             </li>
@@ -68,5 +68,3 @@ function Header() {
         )
     }
 }
-
-export default Header

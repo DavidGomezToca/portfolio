@@ -1,13 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap");
 
 :root {
-  --test__background: rgba(220, 80, 80, 0.8);
+  --test__background--1: rgba(220, 80, 80, 0.8);
+  --test__background--2: rgba(80, 162, 220, 0.8);
   --transparent: rgba(0, 0, 0, 0);
-  --body__background: #c4c4c4;
-  --background--dark_theme: #1e2326;
-  --text: #f4f4f4;
-  --text--dark_theme: #1cb698;
-  --text--light_theme: #3979e1;
+  --shadow: rgba(0, 0, 0, 1);
+  --background__image: url(../public/img/portfolio/background.png);
+  --text--dark--1: #f4f4f4;
+  --text--light--1: #3a3a3a;
+  --text--dark--2: #1cb698;
+  --text--light--2: #3979e1;
+  --background--dark: #1e2326;
+  --background--light: #f0e6e6;
 }
 
 * {
@@ -17,22 +21,46 @@
   font-family: "Work Sans";
 }
 
+img {
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: var(--body__background);
+  background-size: cover;
+  background-image: var(--background__image);
 }
 
-.color--dark,
-.color--dark--hover:hover {
-  color: var(--text--dark_theme);
+.color--dark--1 {
+  color: var(--text--dark--1);
 }
 
-.color--light,
-.color--light--hover:hover {
-  color: var(--text--light_theme);
+.color--light--1 {
+  color: var(--text--light--1);
+}
+
+.color--dark--2,
+.color--dark--2--hover:hover,
+.border--dark {
+  color: var(--text--dark--2);
+}
+
+.color--light--2,
+.color--light--2--hover:hover,
+.border--light {
+  color: var(--text--light--2);
+}
+
+.background--dark {
+  background-color: var(--background--dark);
+}
+
+.background--light {
+  background-color: var(--background--light);
 }
 
 body::-webkit-scrollbar {
@@ -45,7 +73,6 @@ body::-webkit-scrollbar {
   top: 0;
   left: 0;
   padding: 20px 0;
-  background-color: var(--background--dark_theme);
 }
 
 .header__nav,
@@ -78,11 +105,9 @@ body::-webkit-scrollbar {
   font-size: 18px;
   text-decoration: none;
   font-weight: bold;
-  color: var(--text);
 }
 
 .nav__theme__button {
-  color: var(--text);
   background-color: var(--transparent);
   border: none;
   height: 100%;
@@ -104,4 +129,66 @@ body::-webkit-scrollbar {
   width: 60px;
   border-radius: 6px;
   cursor: pointer;
+}
+
+.section__home {
+  display: flex;
+  margin-top: 140px;
+  justify-content: center;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 600px;
+  padding: 20px;
+  border-radius: 40px;
+  box-shadow: 0 4px 8px var(--shadow);
+}
+
+.banner__img {
+  width: 240px;
+  height: 240px;
+  overflow: hidden;
+  border-radius: 100%;
+  border: 10px solid;
+}
+
+.banner__img img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.banner__title {
+  font-size: 42px;
+  font-family: "Righteous";
+  margin: 40px 0;
+}
+
+.banner__description {
+  font-size: 15px;
+  font-family: "Righteous";
+  font-weight: normal;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.social__media__icon {
+  display: inline-block;
+  text-decoration: none;
+  border: solid 2px;
+  border-radius: 100%;
+  margin: 0 10px;
+}
+
+.social__media__icon i {
+  font-size: 1.4rem;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
