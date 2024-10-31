@@ -2,12 +2,31 @@
   "spanish": {
     "sections": [
       "inicio",
-      "sobre mí",
+      "sobre mi",
       "skills",
       "curriculum",
       "diplomas",
       "portafolio",
       "contacto"
+    ],
+    "home": ["TÉCNICO SUPERIOR EN DESARROLLO DE APLICACIONES MULTIPLATAFORMA"],
+    "about__me": [
+      "SOBRE MÍ",
+      "Presentación",
+      "Soy Técnico en Desarrollo de Aplicaciones Multiplataforma con habilidades destacadas en Java. Mi enfoque en la excelencia y el conocimiento actualizado en desarrollo multiplataforma me permite aportar eficazmente en equipos multidisciplinarios. Busco aplicar mi experiencia para impulsar el éxito en proyectos de desarrollo.",
+      "Datos Personales",
+      ["Edad", "Móvil", "Email", "Idiomas", "Carnet"],
+      "Intereses",
+      [
+        "JUEGOS",
+        "DESARROLLO",
+        "AJEDREZ",
+        "BALONCESTO",
+        "MÚSICA",
+        "ARTE",
+        "VIAJAR"
+      ],
+      "Descargar CV"
     ]
   },
   "french": {
@@ -16,9 +35,30 @@
       "sur moi",
       "skills",
       "curriculum",
-      "diplômes",
+      "diplomes",
       "portfolio",
       "contact"
+    ],
+    "home": [
+      "TECHNICIEN SUPÉRIEUR EN DÉVELOPPEMENT D'APPLICATIONS MULTIPLATEFORME"
+    ],
+    "about__me": [
+      "SUR MOI",
+      "Presentation",
+      "Je suis Technicien en Développement d'Applications Multiplateformes avec des compétences remarquables en Java. Mon accent sur l'excellence et les connaissances mises à jour en développement multiplateforme me permet d'apporter efficacement dans des équipes multidisciplinaires. Je cherche à appliquer mon expérience pour stimuler le succès des projets de développement.",
+      "Données Personnelles",
+      ["Âge", "Mobile", "Email", "Langues", "Permis"],
+      "Intérêts",
+      [
+        "JEUX",
+        "DÉVELOP...",
+        "ÉCHECS",
+        "BASKETBALL",
+        "MUSIQUE",
+        "ART",
+        "VOYAGER"
+      ],
+      "Télécharger CV"
     ]
   },
   "english": {
@@ -30,17 +70,57 @@
       "degrees",
       "portfolio",
       "contact"
+    ],
+    "home": ["TECHNICAL SUPERIOR IN MULTIPLATFORM APPLICATION DEVELOPMENT"],
+    "about__me": [
+      "ABOUT ME",
+      "Presentation",
+      "I'm Technician in Multiplatform Application Development with strong skills in Java. My focus on excellence and up-to-date knowledge in multiplatform development enables me to effectively contribute to multidisciplinary teams. I seek to apply my expertise to drive success in development projects.",
+      "Personal Information",
+      ["Age", "Mobile", "Email", "Languages", "License"],
+      "Interests",
+      [
+        "GAMES",
+        "DEVELOP...",
+        "CHESS",
+        "BASKETBALL",
+        "MUSIC",
+        "ART",
+        "TRAVELING"
+      ],
+      "Download CV"
     ]
   },
   "portuguese": {
     "sections": [
-      "início", 
+      "inicio",
       "sobre mim",
       "skills",
       "curriculum",
       "diplomas",
-      "portfólio",
+      "portfolio",
       "contacto"
+    ],
+    "home": [
+      "TÉCNICO SUPERIOR EM DESENVOLVIMENTO DE APLICAÇÕES MULTIPLATAFORMA"
+    ],
+    "about__me": [
+      "SOBRE MIM",
+      "Apresentação",
+      "Sou Técnico em Desenvolvimento de Aplicações Multiplataforma com habilidades de destaque em Java. O meu enfoque na excelência e no conhecimento atualizado em desenvolvimento multiplataforma me permite contribuir eficazmente em equipes multidisciplinares. Procuro aplicar minha experiência para impulsionar o sucesso em projetos de desenvolvimento.",
+      "Dados Pessoais",
+      ["Idade", "Móvel", "Email", "Idiomas", "Carta"],
+      "Interesses",
+      [
+        "JOGOS",
+        "DESENVOL...",
+        "XADREZ",
+        "BASQUETE",
+        "MÚSICA",
+        "ARTE",
+        "VIAJAR"
+      ],
+      "Baixar CV"
     ]
   }
 }

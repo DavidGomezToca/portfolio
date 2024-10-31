@@ -10,15 +10,16 @@ export default function HomeSection() {
     const { translations } = useContext(TranslationsContext)
 
     const sections = translations.sections
+    const homeTexts = translations.home
 
     return (
-        <section id={sections[0]} className={`section__home`}>
-            <div className={`banner background--${theme}`}>
+        <section id={sections[0]} className={`section__home color--${theme}--1`}>
+            <div className={`banner background--${theme}--1`}>
                 <div className={`banner__img border--${theme}`}>
                     <img src="/img/portfolio/DavidGomez.png" alt="David Gómez" />
                 </div>
-                <h1 className={`banner__title color--${theme}--1`}>David Gómez</h1>
-                <h2 className={`banner__description color--${theme}--1`}>TÉCNICO SUPERIOR EN DESARROLLO DE APLICACIONES MULTIPLATAFORMA</h2>
+                <h1 className={`banner__title `}>David Gómez</h1>
+                <h2 className={`banner__description`}>{homeTexts[0]}</h2>
                 <SocialMedia />
             </div>
         </section>

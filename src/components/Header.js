@@ -8,7 +8,7 @@ export default function Header() {
     const sections = translations.sections
 
     return (
-        <header className={`header background--${theme}`}>
+        <header className={`header background--${theme}--1`}>
             <nav className="header__nav">
                 <NavLogo />
                 <NavSections />
@@ -53,7 +53,7 @@ export default function Header() {
         return (
             <li className="nav__element">
                 <button
-                    className={`nav__theme__button color--${theme}--1 color--${theme}--2--hover fa-regular fa-xl fa-moon`}
+                    className={`nav__theme__button color--${theme}--1 color--${theme}--2--hover fa-regular fa-xl fa-${theme === "dark" ? "moon" : "sun"}`}
                     onClick={toggleTheme}
                 />
             </li>

@@ -10,12 +10,12 @@ export function TranslationsProvider({ children }) {
     function handleToggleLanguage() {
         switch (language) {
             case "spanish":
-                setLanguage("english")
-                break
-            case "english":
                 setLanguage("french")
                 break
             case "french":
+                setLanguage("english")
+                break
+            case "english":
                 setLanguage("portuguese")
                 break
             case "portuguese":

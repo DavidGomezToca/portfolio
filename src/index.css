@@ -1,17 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap");
 
 :root {
+  /* TODO: Delete test colors */
   --test__background--1: rgba(220, 80, 80, 0.8);
   --test__background--2: rgba(80, 162, 220, 0.8);
   --transparent: rgba(0, 0, 0, 0);
-  --shadow: rgba(0, 0, 0, 1);
+  --shadow: rgb(100, 100, 100);
   --background__image: url(../public/img/portfolio/background.png);
   --text--dark--1: #f4f4f4;
   --text--light--1: #3a3a3a;
   --text--dark--2: #1cb698;
   --text--light--2: #3979e1;
-  --background--dark: #1e2326;
-  --background--light: #f0e6e6;
+  --background--dark--1: #1e2326;
+  --background--light--1: #f0e6e6;
+  --background--dark--2: #252a2e;
+  --background--light--2: #e0dada;
 }
 
 * {
@@ -28,11 +31,6 @@ img {
 
 html {
   scroll-behavior: smooth;
-}
-
-body {
-  background-size: cover;
-  background-image: var(--background__image);
 }
 
 .color--dark--1 {
@@ -55,12 +53,44 @@ body {
   color: var(--text--light--2);
 }
 
-.background--dark {
-  background-color: var(--background--dark);
+.background--dark--1 {
+  background-color: var(--background--dark--1);
 }
 
-.background--light {
-  background-color: var(--background--light);
+.background--light--1 {
+  background-color: var(--background--light--1);
+}
+
+.background--dark--2 {
+  background-color: var(--background--dark--2);
+}
+
+.background--light--2 {
+  background-color: var(--background--light--2);
+}
+
+.background--dark--2--hover:hover {
+  background-color: var(--text--dark--2);
+}
+
+.background--light--2--hover:hover {
+  background-color: var(--text--light--2);
+}
+
+.background__gradient--dark {
+  background-image: linear-gradient(
+    to right,
+    var(--text--dark--2),
+    var(--text--dark--2)
+  );
+}
+
+.background__gradient--light {
+  background-image: linear-gradient(
+    to right,
+    var(--text--light--2),
+    var(--text--light--2)
+  );
 }
 
 body::-webkit-scrollbar {
@@ -132,9 +162,12 @@ body::-webkit-scrollbar {
 }
 
 .section__home {
+  height: 100vh;
   display: flex;
-  margin-top: 140px;
   justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-image: var(--background__image);
 }
 
 .banner {
@@ -163,17 +196,18 @@ body::-webkit-scrollbar {
 }
 
 .banner__title {
-  font-size: 42px;
+  font-size: 2.8rem;
   font-family: "Righteous";
-  margin: 40px 0;
+  margin: 20px 0;
 }
 
 .banner__description {
-  font-size: 15px;
+  font-size: 1rem;
   font-family: "Righteous";
   font-weight: normal;
   margin-bottom: 40px;
   text-align: center;
+  padding: 0 20px;
 }
 
 .social__media__icon {
@@ -191,4 +225,105 @@ body::-webkit-scrollbar {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.section__about__me {
+  padding: 30px 400px;
+}
+
+.section__about__me h1 {
+  text-align: center;
+  font-size: 2.8rem;
+  font-family: "Righteous";
+  margin-bottom: 10px;
+}
+
+.section__about__me h3 {
+  font-size: 1.6rem;
+}
+
+.section__about__me p {
+  font-size: 1.1rem;
+}
+
+.more__about__me {
+  display: flex;
+  padding-top: 20px;
+}
+
+.more__about__me div {
+  width: 50%;
+}
+
+.more__about__me div h2 {
+  font-family: "Righteous";
+  margin-bottom: 20px;
+}
+
+.personal__information ul {
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+.personal__information__item {
+  margin: 15px 0;
+}
+
+strong {
+  display: inline-block;
+  width: 120px;
+}
+
+.interests .interests__container {
+  width: 100%;
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.interests__container .interest__item {
+  width: 120px;
+  height: 100px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  margin: 0 5px;
+}
+
+.interest__item i {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.download__cv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.download__cv {
+  font-size: 1rem;
+}
+
+.download__cv a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 2px solid;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.5s ease-in-out;
+}
+
+.download__cv a:hover {
+  background-size: 100% 100%;
+}
+
+.download__cv a i{
+  margin-left: 10px;
 }
