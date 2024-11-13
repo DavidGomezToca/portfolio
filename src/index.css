@@ -2,8 +2,9 @@
 
 :root {
   /* TODO: Delete test colors */
-  --test__background--1: rgba(220, 80, 80, 0.8);
-  --test__background--2: rgba(80, 162, 220, 0.8);
+  --test__background--1: rgba(80, 162, 220, 0.8);
+  --test__background--2: rgba(220, 80, 80, 0.8);
+  --test__background--3: rgb(255, 247, 0);
   --transparent: rgba(0, 0, 0, 0);
   --shadow: rgb(100, 100, 100);
   --background__image: url(../public/img/portfolio/background.png);
@@ -216,6 +217,7 @@ body::-webkit-scrollbar {
   border: solid 2px;
   border-radius: 100%;
   margin: 0 10px;
+  transition: 0.3s;
 }
 
 .social__media__icon i {
@@ -231,7 +233,7 @@ body::-webkit-scrollbar {
   padding: 30px 400px;
 }
 
-.section__about__me h1 {
+.section__title {
   text-align: center;
   font-size: 2.8rem;
   font-family: "Righteous";
@@ -271,7 +273,7 @@ body::-webkit-scrollbar {
 
 strong {
   display: inline-block;
-  width: 120px;
+  width: 130px;
 }
 
 .interests .interests__container {
@@ -324,6 +326,28 @@ strong {
   background-size: 100% 100%;
 }
 
-.download__cv a i{
+.download__cv a i {
   margin-left: 10px;
+}
+
+.section__skills {
+  padding: 40px 200px;
+}
+
+.carousel__container {
+  margin: 40px 0;
+  width: 1500px;
+}
+
+.carousel__container .swiper__container {
+  padding-top: 30px;
+}
+
+.swiper__slide {
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.swiper-wrapper .swiper-slide {
+  height: 500px;
 }

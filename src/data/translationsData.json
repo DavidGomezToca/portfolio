@@ -27,7 +27,8 @@
         "VIAJAR"
       ],
       "Descargar CV"
-    ]
+    ],
+    "skills": ["SKILLS"]
   },
   "french": {
     "sections": [
@@ -59,7 +60,8 @@
         "VOYAGER"
       ],
       "Télécharger CV"
-    ]
+    ],
+    "skills": ["SKILLS"]
   },
   "english": {
     "sections": [
@@ -89,7 +91,8 @@
         "TRAVELING"
       ],
       "Download CV"
-    ]
+    ],
+    "skills": ["SKILLS"]
   },
   "portuguese": {
     "sections": [
@@ -121,6 +124,7 @@
         "VIAJAR"
       ],
       "Baixar CV"
-    ]
+    ],
+    "skills": ["SKILLS"]
   }
 }

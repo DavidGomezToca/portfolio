@@ -16,7 +16,7 @@ export default function AboutMeSection() {
 
     return (
         <section id={sections[1]} className={`section__about__me color--${theme}--1 background--${theme}--1`}>
-            <h1>{aboutMeTexts[0]}</h1>
+            <h1 className="section__title">{aboutMeTexts[0]}</h1>
             <Presentation />
             <div className="more__about__me">
                 <PersonalInformation />
@@ -49,7 +49,7 @@ export default function AboutMeSection() {
     function PersonalInformationItem({ information, index }) {
         return (
             <li className={`personal__information__item `}>
-                <strong className={`color--${theme}--2`}>{information}:</strong> {personalInformation[index]}
+                <strong className={`color--${theme}--2`}>{information}:</strong>{personalInformation[index]}
             </li>
         )
     }
@@ -79,7 +79,7 @@ export default function AboutMeSection() {
             <div className="download__cv">
                 <a className={`color--${theme}--1 background__gradient--${theme}`} download="CV David Gómez" href="/pdfs/CV David Gomez.pdf">
                     {aboutMeTexts[7]}
-                    <i class="fa-solid fa-download" />
+                    <i className="fa-solid fa-download" />
                 </a>
             </div>
         )

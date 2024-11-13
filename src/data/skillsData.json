@@ -1,0 +1,19 @@
+[
+  ["React", "react"],
+  ["Laravel", "laravel"],
+  ["Javascript", "javascript"],
+  [".NET", "dotnet"],
+  ["WordPress", "word_press"],
+  ["MySQL", "my_sql"],
+  ["PHP", "php"],
+  ["Python", "python"],
+  ["Kotlin", "kotlin"],
+  ["Java", "java"],
+  ["C#", "c_sharp"],
+  ["HTML", "html"],
+  ["CSS", "css"],
+  ["Android Studio", "android_studio"],
+  ["Unity", "unity"],
+  ["GIT", "git"],
+  ["GitHub", "git_hub"]
+]

@@ -16,7 +16,7 @@ export default function SocialMedia() {
 
     function SocialMediaIcon({ url, icon }) {
         return (
-            <a className={`social__media__icon color--${theme}--1`} href={url} target="_blank" rel="noreferrer">
+            <a className={`social__media__icon color--${theme}--1 background--${theme}--2--hover`} href={url} target="_blank" rel="noreferrer">
                 <i className={icon} />
             </a>
         )
