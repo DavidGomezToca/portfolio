@@ -14,7 +14,7 @@
   --text--light--2: #3979e1;
   --background--dark--1: #1e2326;
   --background--light--1: #f0e6e6;
-  --background--dark--2: #252a2e;
+  --background--dark--2: #2b2c2c;
   --background--light--2: #e0dada;
 }
 
@@ -70,10 +70,12 @@ html {
   background-color: var(--background--light--2);
 }
 
+.background--dark--3,
 .background--dark--2--hover:hover {
   background-color: var(--text--dark--2);
 }
 
+.background--light--3,
 .background--light--2--hover:hover {
   background-color: var(--text--light--2);
 }
@@ -94,6 +96,14 @@ html {
   );
 }
 
+.border--dark {
+  border-color: var(--text--dark--2);
+}
+
+.border--light {
+  border-color: var(--text--light--2);
+}
+
 body::-webkit-scrollbar {
   display: none;
 }
@@ -104,6 +114,7 @@ body::-webkit-scrollbar {
   top: 0;
   left: 0;
   padding: 20px 0;
+  z-index: 2;
 }
 
 .header__nav,
@@ -350,4 +361,108 @@ strong {
 
 .swiper-wrapper .swiper-slide {
   height: 500px;
+}
+
+.section__curriculum {
+  padding: 40px 200px;
+}
+
+.curriculum__row {
+  display: flex;
+  margin-top: 30px;
+}
+
+.curriculum__column {
+  width: 50%;
+  padding: 0 20px;
+}
+
+.formation__column {
+  border-right: 2px solid;
+}
+
+.experience__column {
+  border-left: 2px solid;
+}
+
+.curriculum__column__title {
+  font-size: 28px;
+  font-family: "Righteous";
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.curriculum__item {
+  padding: 20px 40px;
+  margin: 20px 0;
+  position: relative;
+}
+
+.formation__item {
+  border-radius: 40px 0 0 40px;
+  border-right: 6px solid;
+  margin-right: 50px;
+}
+
+.experience__item {
+  border-radius: 0 40px 40px 0;
+  border-left: 6px solid;
+  margin-left: 50px;
+}
+
+.curriculum__item__title {
+  font-size: 20px;
+  margin-bottom: 14px;
+}
+
+.curriculum__item__url {
+  font-size: 22px;
+  font-weight: bold;
+  display: block;
+}
+
+.curriculum__item__date {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.curriculum__item p {
+  line-height: 24px;
+  text-align: justify;
+}
+
+.curriculum__item__stack {
+  padding-top: 20px;
+}
+
+.connector {
+  height: 4px;
+  width: 50px;
+  position: absolute;
+  top: 50%;
+}
+
+.connector--left {
+  right: -50px;
+}
+
+.connector--right {
+  left: -50px;
+}
+
+.circle {
+  display: block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 6px;
+}
+
+.circle--left {
+  float: right;
+}
+
+.circle--right {
+  float: left;
 }

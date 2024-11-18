@@ -59,7 +59,7 @@ export default function AboutMeSection() {
             <div className={`interests`}>
                 <h2>{aboutMeTexts[5]}</h2>
                 <div className="interests__container">
-                    {aboutMeTexts[6].map((interest, index) => (<InterestItem key={index} interest={interest} index={index} />))}
+                    {aboutMeTexts[6].map((interest, index) => (<InterestItem key={`interest-${interest}`} interest={interest} index={index} />))}
                 </div>
             </div>
         )

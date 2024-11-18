@@ -28,7 +28,42 @@
       ],
       "Descargar CV"
     ],
-    "skills": ["SKILLS"]
+    "skills": ["SKILLS"],
+    "curriculum": [
+      "CURRICULUM",
+      "Educación y Formación",
+      [
+        {
+          "title_1": "FP Grado Superior",
+          "title_2": "Desarrollo de Aplicaciones Multiplataforma",
+          "url": "Edix Educación (Qualentum)",
+          "date": "2021 - 2023"
+        },
+        {
+          "title_1": "FP Grado Medio",
+          "title_2": "Sistemas Microinformáticos y Redes",
+          "url": "Centro de Estudios Superiores Afuera",
+          "date": "2019 - 2021"
+        }
+      ],
+      "Experiencia Laboral",
+      [
+        {
+          "title": "Prácticas Grado Superior",
+          "url": "Sopra Steria",
+          "date": "03/2023 - 06/2023",
+          "description": "Durante mis prácticas de empresa, me encargué del mantenimiento y desarrollo full stack de una aplicación de gestión de personal para una entidad del Estado. Personalizando el front end y trabajando con conexiones a bases de datos. El equipo constaba de seis personas y utilizábamos metodología Agile.",
+          "stack": "Uso de Vue.js, Java, MySQL, DBeaver, Git, GitLab, HTML5 y CSS."
+        },
+        {
+          "title": "Prácticas Grado Medio",
+          "url": "Recovery PC",
+          "date": "04/2021 - 06/2021",
+          "description": "Mantenimiento de front end, optimización de tiempos de carga y mejora de posicionamiento SEO de sitios web desarrollados por la empresa.",
+          "stack": "Uso de WordPress, JavaScript, Google Analytics, otras herramientas analíticas, HTML5 y CSS."
+        }
+      ]
+    ]
   },
   "french": {
     "sections": [
@@ -61,7 +96,42 @@
       ],
       "Télécharger CV"
     ],
-    "skills": ["SKILLS"]
+    "skills": ["SKILLS"],
+    "curriculum": [
+      "CURRICULUM",
+      "Éducation et Formation",
+      [
+        {
+          "title_1": "FP Grade Supérieur",
+          "title_2": "Développement d'Applications Multiplateformes",
+          "url": "Edix Éducation (Qualentum)",
+          "date": "2021 - 2023"
+        },
+        {
+          "title_1": "FP Grade Intermédiaire",
+          "title_2": "Systèmes Microinformatiques et Réseaux",
+          "url": "Centre d'Études Supérieures Afuera",
+          "date": "2019 - 2021"
+        }
+      ],
+      "Expérience Professionnelle",
+      [
+        {
+          "title": "Pratiques Grade Supérieur",
+          "url": "Sopra Steria",
+          "date": "03/2023 - 06/2023",
+          "description": "Pendant mon stage en entreprise, j'ai géré la maintenance et le développement full stack d'une application de gestion du personnel pour une entité gouvernementale. Personnalisation du front end et travail avec des connexions à des bases de données. L'équipe était composée de six personnes et nous utilisions la méthodologie Agile.",
+          "stack": "Utilisation de Vue.js, Java, MySQL, DBeaver, Git, GitLab, HTML5 et CSS."
+        },
+        {
+          "title": "Pratiques Grade Intermédiaire",
+          "url": "Recovery PC",
+          "date": "04/2021 - 06/2021",
+          "description": "Maintenance de front end, optimisation des temps de chargement et amélioration du référencement des sites Web développés par l'entreprise.",
+          "stack": "Utiliastion de WordPress, JavaScript Google Analytics, autres outils analytiques SEO, HTML5 et CSS."
+        }
+      ]
+    ]
   },
   "english": {
     "sections": [
@@ -92,7 +162,42 @@
       ],
       "Download CV"
     ],
-    "skills": ["SKILLS"]
+    "skills": ["SKILLS"],
+    "curriculum": [
+      "CURRICULUM",
+      "Education and Formation",
+      [
+        {
+          "title_1": "FP Higher Degree",
+          "title_2": "Cross-platform Application Development",
+          "url": "Edix Education (Qualentum)",
+          "date": "2021 - 2023"
+        },
+        {
+          "title_1": "FP Intermediate Degree",
+          "title_2": "Microinformatics and Network Systems",
+          "url": "Higher Education Center Afuera",
+          "date": "2019 - 2021"
+        }
+      ],
+      "Work Experience",
+      [
+        {
+          "title": "Higher Degree Internship",
+          "url": "Sopra Steria",
+          "date": "03/2023 - 06/2023",
+          "description": "During my internship, I was responsible for the full stack maintenance and development of a personnel management application for a government entity. Customizing the front end and working with database connections. The team consisted of six people, and we followed Agile methodology.",
+          "stack": "Use of Vue.js, Java, MySQL, DBeaver, Git, GitLab, HTML5 and CSS."
+        },
+        {
+          "title": "Intermediate Degree Internship",
+          "url": "Recovery PC",
+          "date": "04/2021 - 06/2021",
+          "description": "Front end maintenance, load time optimization and improved SEO positioning of websites developed by the company.",
+          "stack": "Use of WordPress, JavaScript, Google Analytics, others SEO analytics tools, HTML5 and CSS."
+        }
+      ]
+    ]
   },
   "portuguese": {
     "sections": [
@@ -125,6 +230,41 @@
       ],
       "Baixar CV"
     ],
-    "skills": ["SKILLS"]
+    "skills": ["SKILLS"],
+    "curriculum": [
+      "CURRICULUM",
+      "Educação e Formação",
+      [
+        {
+          "title_1": "FP Grau Superior",
+          "title_2": "Desenvolvimento de Aplicações Multiplataforma",
+          "url": "Edix Educação (Qualentum)",
+          "date": "2021 - 2023"
+        },
+        {
+          "title_1": "FP Grau Médio",
+          "title_2": "Sistemas Microinformáticos e Redes",
+          "url": "Centro de Estudos Avançados Afuera",
+          "date": "2019 - 2021"
+        }
+      ],
+      "Experiência Profissional",
+      [
+        {
+          "title": "Estágio Superior",
+          "url": "Sopra Steria",
+          "date": "03/2023 - 06/2023",
+          "description": "Durante meu estágio na empresa, fui responsável pela manutenção e desenvolvimento full stack de um aplicativo de gestão de pessoal para uma entidade governamental. Personalizando o front end e trabalhando com conexões a bancos de dados. A equipe era composta por seis pessoas e utilizávamos a metodologia Agile.",
+          "stack": "Usando Vue.js, Java, MySQL, DBeaver, Git, GitLab, HTML5 e CSS."
+        },
+        {
+          "title": "Estágio Grau Médio",
+          "url": "Recovery PC",
+          "date": "04/2021 - 06/2021",
+          "description": "Manutenção de front end otimização de tempos de carregamento e melhoria de posicionamento SEO de sites desenvolvidos pela empresa.",
+          "stack": "Usando WordPress, JavaScript, Google Analytics, outras ferramentas analíticas SEO, HTML5 e CSS."
+        }
+      ]
+    ]
   }
 }
