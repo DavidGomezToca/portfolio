@@ -16,6 +16,8 @@
   --background--light--1: #f0e6e6;
   --background--dark--2: #2b2c2c;
   --background--light--2: #e0dada;
+  --overlay--dark: rgba(28, 182, 152, 0.84);
+  --overlay--light: rgba(57, 121, 225, 0.84);
 }
 
 * {
@@ -102,6 +104,14 @@ html {
 
 .border--light {
   border-color: var(--text--light--2);
+}
+
+.overlay--dark {
+  background: var(--overlay--dark);
+}
+
+.overlay--light {
+  background: var(--overlay--light);
 }
 
 body::-webkit-scrollbar {
@@ -321,6 +331,7 @@ strong {
 
 .download__cv {
   font-size: 1rem;
+  margin-bottom: 30px;
 }
 
 .download__cv a {
@@ -465,4 +476,59 @@ strong {
 
 .circle--right {
   float: left;
+}
+
+.section__degrees {
+  padding: 40px 150px;
+}
+
+.degrees__container {
+  margin-top: 40px;
+}
+
+.degrees__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.degree__item {
+  position: relative;
+  width: 360px;
+  height: fit-content;
+  margin: 14px;
+  border-radius: 10px;
+}
+
+.degree__img {
+  width: 100%;
+  height: 240px;
+  border-radius: 10px;
+  display: block;
+}
+
+.degree__overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.8s;
+  font-size: 18px;
+  letter-spacing: 3px;
+  opacity: 0;
+  border-radius: 10px;
+  color: white;
+  padding: 0 20px;
+}
+
+.degree__overlay:hover {
+  opacity: 1;
+}
+
+.degree__overlay h3 {
+  margin-bottom: 20px;
 }

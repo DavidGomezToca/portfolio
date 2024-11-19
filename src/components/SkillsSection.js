@@ -33,7 +33,7 @@ export default function SkillsSection() {
                     modules={[Autoplay, EffectCoverflow]}
                     className="swiper__container">
                     {skills.map((skill) => (
-                        <SwiperSlide key={skill[0]} className="swiper__slide" >
+                        <SwiperSlide key={skill.file} className="swiper__slide" >
                             <SkillSlide skill={skill} />
                         </SwiperSlide>
                     ))}
@@ -44,7 +44,7 @@ export default function SkillsSection() {
 
     function SkillSlide({ skill }) {
         return (
-            <img src={`/img/portfolio/skills/${skill[1]}.png`} alt={skill[0]} />
+            <img src={`/img/portfolio/skills/${skill.file}.png`} alt={skill.name} />
         )
     }
 }

@@ -63,6 +63,43 @@
           "stack": "Uso de WordPress, JavaScript, Google Analytics, otras herramientas analíticas, HTML5 y CSS."
         }
       ]
+    ],
+    "degrees": [
+      "DIPLOMAS",
+      [
+        {
+          "name": "React & Redux - Desarrollo Web",
+          "entity": "Udemy"
+        },
+        {
+          "name": "React & Typescript - Desarrollo Web",
+          "entity": "Udemy"
+        },
+        {
+          "name": "Laravel 9 - Desarrollo Web",
+          "entity": "Udemy"
+        },
+        {
+          "name": "SQL - Análisis de Datos",
+          "entity": "Udemy"
+        },
+        {
+          "name": "Grado Superior - DAM",
+          "entity": "Edix Educación"
+        },
+        {
+          "name": "Clase Magistral - Blockchain",
+          "entity": "UNIR"
+        },
+        {
+          "name": "Grado Medio - Sistemas Microinformáticos y Redes",
+          "entity": "CESA"
+        },
+        {
+          "name": "ESO - Informática",
+          "entity": "IES CLA"
+        }
+      ]
     ]
   },
   "french": {
@@ -131,6 +168,43 @@
           "stack": "Utiliastion de WordPress, JavaScript Google Analytics, autres outils analytiques SEO, HTML5 et CSS."
         }
       ]
+    ],
+    "degrees": [
+      "DIPLOMAS",
+      [
+        {
+          "name": "React & Redux - Développement Web",
+          "entity": "Udemy"
+        },
+        {
+          "name": "React & Typescript - Développement Web",
+          "entity": "Udemy"
+        },
+        {
+          "name": "Laravel 9 - Développement Web",
+          "entity": "Udemy"
+        },
+        {
+          "name": "SQL - Analyse des Données",
+          "entity": "Udemy"
+        },
+        {
+          "name": "Grade Supérieur - DAM",
+          "entity": "Edix Education"
+        },
+        {
+          "name": "Master Class - Blockchain",
+          "entity": "UNIR"
+        },
+        {
+          "name": "Grade Intermédiaire - Systèmes Microinformatiques et Réseaux",
+          "entity": "CESA"
+        },
+        {
+          "name": "ESO - Informatique",
+          "entity": "IES CLA"
+        }
+      ]
     ]
   },
   "english": {
@@ -195,6 +269,43 @@
           "date": "04/2021 - 06/2021",
           "description": "Front end maintenance, load time optimization and improved SEO positioning of websites developed by the company.",
           "stack": "Use of WordPress, JavaScript, Google Analytics, others SEO analytics tools, HTML5 and CSS."
+        }
+      ]
+    ],
+    "degrees": [
+      "DIPLOMAS",
+      [
+        {
+          "name": "React & Redux - Web Development",
+          "entity": "Udemy"
+        },
+        {
+          "name": "React & Typescript - Web Development",
+          "entity": "Udemy"
+        },
+        {
+          "name": "Laravel 9 - Web Development",
+          "entity": "Udemy"
+        },
+        {
+          "name": "SQL - Data Analytics",
+          "entity": "Udemy"
+        },
+        {
+          "name": "Higher Degree - DAM",
+          "entity": "Edix Education"
+        },
+        {
+          "name": "Master Class - Blockchain",
+          "entity": "UNIR"
+        },
+        {
+          "name": "Intermediate Degree - Microinformatics and Network Systems",
+          "entity": "CESA"
+        },
+        {
+          "name": "ESO - Computer Science",
+          "entity": "IES CLA"
         }
       ]
     ]
@@ -263,6 +374,43 @@
           "date": "04/2021 - 06/2021",
           "description": "Manutenção de front end otimização de tempos de carregamento e melhoria de posicionamento SEO de sites desenvolvidos pela empresa.",
           "stack": "Usando WordPress, JavaScript, Google Analytics, outras ferramentas analíticas SEO, HTML5 e CSS."
+        }
+      ]
+    ],
+    "degrees": [
+      "DIPLOMAS",
+      [
+        {
+          "name": "React & Redux - Desenvolvimiento Web",
+          "entity": "Udemy"
+        },
+        {
+          "name": "React & Typescript - Desenvolvimiento Web",
+          "entity": "Udemy"
+        },
+        {
+          "name": "Laravel 9 - Desenvolvimiento Web",
+          "entity": "Udemy"
+        },
+        {
+          "name": "SQL - Análise de Dados",
+          "entity": "Udemy"
+        },
+        {
+          "name": "Grau Superior - DAM",
+          "entity": "Edix Educação"
+        },
+        {
+          "name": "Master Class - Blockchain",
+          "entity": "UNIR"
+        },
+        {
+          "name": "Grado Médio - Sistemas Microinformáticos e Redes",
+          "entity": "CESA"
+        },
+        {
+          "name": "ESO - Informática",
+          "entity": "IES CLA"
         }
       ]
     ]
