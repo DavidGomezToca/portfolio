@@ -1,9 +1,10 @@
 import Header from "./Header"
-import HomeSection from "./HomeSection"
-import AboutMeSection from "./AboutMeSection"
-import SkillsSection from "./SkillsSection"
-import CurriculumSection from "./CurriculumSection"
-import DegreesSection from "./DegreesSection"
+import HomeSection from "./sections/HomeSection"
+import AboutMeSection from "./sections/AboutMeSection"
+import SkillsSection from "./sections/SkillsSection"
+import CurriculumSection from "./sections/CurriculumSection"
+import DegreesSection from "./sections/DegreesSection"
+import PortfolioSection from "./sections/PortfolioSection"
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <SkillsSection />
       <CurriculumSection />
       <DegreesSection />
+      <PortfolioSection />
     </div>
   )
 }

@@ -1,8 +1,8 @@
 import { useContext } from 'react'
-import { ThemeContext } from '../contexts/ThemeContext'
-import { TranslationsContext } from '../contexts/TranslationsContext'
+import { ThemeContext } from '../../contexts/ThemeContext'
+import { TranslationsContext } from '../../contexts/TranslationsContext'
 
-import DegreesData from "../data/degreesData.json"
+import DegreesData from "../../data/degreesData.json"
 
 export default function DegreesSection() {
     const { theme } = useContext(ThemeContext)
@@ -21,9 +21,9 @@ export default function DegreesSection() {
             <h1 className="section__title">{degreesTexts[0]}</h1>
             <div className="degrees__container">
                 {rows.map((row, rowIndex) => (
-                    <div key={"row-" + rowIndex} className="degrees__row">
+                    <div key={"degrees-row-" + rowIndex} className="degrees__row">
                         {row.map((degree, index) => (
-                            <Degree key={"degree-" + degree.file} degree={degree} rowIndex={rowIndex} index={index} />
+                            <Degree key={"degree-" + degree.file} degree={degree} index={(rowIndex * 4) + index} />
                         ))}
                     </div>
                 ))}
@@ -31,9 +31,8 @@ export default function DegreesSection() {
         </section >
     )
 
-    function Degree({ degree, rowIndex, index }) {
-        const realIndex = (rowIndex * 4) + index;
-        const degreeTexts = degreesTexts[1][realIndex]
+    function Degree({ degree, index }) {
+        const degreeTexts = degreesTexts[1][index]
 
         return (
             <div className="degree__item">

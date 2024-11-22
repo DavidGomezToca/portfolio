@@ -478,36 +478,43 @@ strong {
   float: left;
 }
 
-.section__degrees {
+.section__degrees,
+.section__portfolio {
   padding: 40px 150px;
 }
 
-.degrees__container {
+.degrees__container,
+.portfolio__container {
   margin-top: 40px;
 }
 
-.degrees__row {
+.degrees__row,
+.portfolio__row {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.degree__item {
+.degree__item,
+.portfolio__item {
   position: relative;
   width: 360px;
   height: fit-content;
   margin: 14px;
+  border: solid 2px var(--shadow);
   border-radius: 10px;
 }
 
-.degree__img {
+.degree__img,
+.project__img {
   width: 100%;
   height: 240px;
   border-radius: 10px;
   display: block;
 }
 
-.degree__overlay {
+.degree__overlay,
+.project__overlay {
   position: absolute;
   top: 0;
   width: 100%;
@@ -517,7 +524,7 @@ strong {
   flex-direction: column;
   justify-content: center;
   transition: 0.8s;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 3px;
   opacity: 0;
   border-radius: 10px;
@@ -525,10 +532,26 @@ strong {
   padding: 0 20px;
 }
 
-.degree__overlay:hover {
+.degree__overlay:hover,
+.project__overlay:hover {
   opacity: 1;
 }
 
-.degree__overlay h3 {
+.degree__overlay h3,
+.project__overlay h3 {
   margin-bottom: 20px;
+}
+
+.project__redirect {
+  position: absolute;
+  bottom: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  transition: 0.4s;
+  font-size: 20px;
+}
+
+.project__redirect:hover {
+  color: #000;
 }

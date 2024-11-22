@@ -1,0 +1,97 @@
+[
+  {
+    "file": "cozy_coffee",
+    "url": "https://github.com/DavidGomezToca/cozy-coffee",
+    "stack": "Laravel & React"
+  },
+  {
+    "file": "pexels_stream",
+    "url": "https://pexels-stream.netlify.app",
+    "stack": "React & Typescript"
+  },
+  {
+    "file": "card_realm",
+    "url": "https://dagt-card-realm.netlify.app",
+    "stack": "React"
+  },
+  {
+    "file": "slice_delight",
+    "url": "https://slice-delight.netlify.app",
+    "stack": "React"
+  },
+  {
+    "file": "fair_share",
+    "url": "https://dagt-fair-share.netlify.app",
+    "stack": "React"
+  },
+  {
+    "file": "bag_pro",
+    "url": "https://bag-pro.netlify.app",
+    "stack": "React"
+  },
+  {
+    "file": "visual_stagram",
+    "url": "https://github.com/DavidGomezToca/visual-stagram",
+    "stack": "Laravel"
+  },
+  {
+    "file": "pokemon_2d",
+    "url": "https://github.com/FANTAS666IXI/F6X-POKEMON-2D",
+    "stack": "C#"
+  },
+  {
+    "file": "parkour_climbing_system",
+    "url": "https://github.com/FANTAS666IXI/UNITY-PARKOUR-CLIMBING-SYSTEM",
+    "stack": "C#"
+  },
+  {
+    "file": "gothic_vania",
+    "url": "https://github.com/FANTAS666IXI/F6X-GOTHIC-VANIA",
+    "stack": "C#"
+  },
+  {
+    "file": "the_golden_touch",
+    "url": "https://github.com/FANTAS666IXI/F6X-THE-GOLDEN-TOUCH",
+    "stack": "C#"
+  },
+  {
+    "file": "pokewalker",
+    "url": "https://github.com/FANTAS666IXI/F6X-POKEWALKER",
+    "stack": "C#"
+  },
+  {
+    "file": "console_log_system",
+    "url": "https://github.com/FANTAS666IXI/F6X-CONSOLE-LOG-SYSTEM",
+    "stack": "C#"
+  },
+  {
+    "file": "junit_tests",
+    "url": "https://github.com/DavidGomezToca/AE-3.-Pruebas-del-software-con-JUnit",
+    "stack": "Java"
+  },
+  {
+    "file": "bbdd_connection",
+    "url": "https://github.com/DavidGomezToca/AE-2.-Manejo-de-conectores-de-BD",
+    "stack": "Java"
+  },
+  {
+    "file": "versioning",
+    "url": "https://github.com/DavidGomezToca/AE-2.-Control-de-versiones-con-Git-GitHub-y-un-IDE",
+    "stack": "Git"
+  },
+  {
+    "file": "managing_files",
+    "url": "https://github.com/DavidGomezToca/AE-1.-Manejo-de-ficheros",
+    "stack": "Java"
+  },
+  {
+    "file": "cart",
+    "url": "https://github.com/DavidGomezToca/AE-1.-Carrito-de-la-compra",
+    "stack": "HTML, CSS & JS"
+  },
+  {
+    "file": "algorithmic_test",
+    "url": "https://github.com/DavidGomezToca/Test-Algoritmia-09-03-23",
+    "stack": "Java"
+  }
+]

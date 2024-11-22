@@ -1,9 +1,9 @@
-import React, { useContext } from 'react'
-import { ThemeContext } from '../contexts/ThemeContext'
-import { TranslationsContext } from '../contexts/TranslationsContext'
+import { useContext } from 'react'
+import { ThemeContext } from '../../contexts/ThemeContext'
+import { TranslationsContext } from '../../contexts/TranslationsContext'
 
-import personalInformationData from "../data/personalInformationData.json"
-import interestsData from "../data/interestsData.json"
+import personalInformationData from "../../data/personalInformationData.json"
+import interestsData from "../../data/interestsData.json"
 
 export default function AboutMeSection() {
     const { theme } = useContext(ThemeContext)

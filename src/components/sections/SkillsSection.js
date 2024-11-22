@@ -1,15 +1,15 @@
 import { useContext } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay, EffectCoverflow } from 'swiper/modules'
-import { ThemeContext } from '../contexts/ThemeContext'
-import { TranslationsContext } from '../contexts/TranslationsContext'
+import { ThemeContext } from '../../contexts/ThemeContext'
+import { TranslationsContext } from '../../contexts/TranslationsContext'
 
 import "swiper/css"
 import "swiper/css/effect-coverflow"
 import "swiper/css/pagination"
 import "swiper/css/navigation"
 
-import SkillsData from "../data/skillsData.json"
+import SkillsData from "../../data/skillsData.json"
 
 export default function SkillsSection() {
     const { theme } = useContext(ThemeContext)

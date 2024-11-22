@@ -1,8 +1,8 @@
 import { useContext } from 'react'
-import { ThemeContext } from '../contexts/ThemeContext'
-import { TranslationsContext } from '../contexts/TranslationsContext'
+import { ThemeContext } from '../../contexts/ThemeContext'
+import { TranslationsContext } from '../../contexts/TranslationsContext'
 
-import SocialMedia from "./SocialMedia"
+import SocialMedia from "../SocialMedia"
 
 
 export default function HomeSection() {

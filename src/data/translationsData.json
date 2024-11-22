@@ -100,6 +100,87 @@
           "entity": "IES CLA"
         }
       ]
+    ],
+    "portfolio": [
+      "PORTAFOLIO",
+      [
+        {
+          "name": "Cozy Coffee",
+          "redirect": "Visitar Repositorio"
+        },
+        {
+          "name": "Pexels Stream",
+          "redirect": "Visitar Web"
+        },
+        {
+          "name": "Card Realm",
+          "redirect": "Visitar Web"
+        },
+        {
+          "name": "Slice Delight",
+          "redirect": "Visitar Web"
+        },
+        {
+          "name": "Fair Share",
+          "redirect": "Visitar Web"
+        },
+        {
+          "name": "Bag Pro",
+          "redirect": "Visitar Web"
+        },
+        {
+          "name": "VisualStagram",
+          "redirect": "Visitar Repositorio"
+        },
+        {
+          "name": "Pokémon 2D",
+          "redirect": "Visitar Repositorio"
+        },
+        {
+          "name": "Parkour Climbing System",
+          "redirect": "Visitar Repositorio"
+        },
+        {
+          "name": "Gothic Vania",
+          "redirect": "Visitar Repositorio"
+        },
+        {
+          "name": "The Golden Touch",
+          "redirect": "Visitar Repositorio"
+        },
+        {
+          "name": "Pokewalker",
+          "redirect": "Visitar Repositorio"
+        },
+        {
+          "name": "Console Log System",
+          "redirect": "Visitar Repositorio"
+        },
+        {
+          "name": "Pruebas JUnit",
+          "redirect": "Visitar Repositorio"
+        },
+        {
+          "name": "Conectores BBDD",
+          "redirect": "Visitar Repositorio"
+        },
+        {
+          "name": "Control de Versiones",
+          "redirect": "Visitar Repositorio"
+        },
+        {
+          "name": "Manejo de Ficheros",
+          "redirect": "Visitar Repositorio"
+        },
+        {
+          "name": "Carrito Compra",
+          "redirect": "Visitar Repositorio"
+        },
+        {
+          "name": "Test Algoritmia",
+          "redirect": "Visitar Repositorio"
+        }
+      ]
     ]
   },
   "french": {
@@ -205,6 +286,87 @@
           "entity": "IES CLA"
         }
       ]
+    ],
+    "portfolio": [
+      "PORTAFOLIO",
+      [
+        {
+          "name": "Cozy Coffee",
+          "redirect": "Visit Repositoire"
+        },
+        {
+          "name": "Pexels Stream",
+          "redirect": "Visit Web"
+        },
+        {
+          "name": "Card Realm",
+          "redirect": "Visit Web"
+        },
+        {
+          "name": "Slice Delight",
+          "redirect": "Visit Web"
+        },
+        {
+          "name": "Fair Share",
+          "redirect": "Visit Web"
+        },
+        {
+          "name": "Bag Pro",
+          "redirect": "Visit Web"
+        },
+        {
+          "name": "VisualStagram",
+          "redirect": "Visit Repositoire"
+        },
+        {
+          "name": "Pokemon 2D",
+          "redirect": "Visit Repositoire"
+        },
+        {
+          "name": "Parkour Climbing System",
+          "redirect": "Visit Repositoire"
+        },
+        {
+          "name": "Gothic Vania",
+          "redirect": "Visit Repositoire"
+        },
+        {
+          "name": "The Golden Touch",
+          "redirect": "Visit Repositoire"
+        },
+        {
+          "name": "Pokewalker",
+          "redirect": "Visit Repositoire"
+        },
+        {
+          "name": "Console Log System",
+          "redirect": "Visit Repositoire"
+        },
+        {
+          "name": "Épreuves JUnit",
+          "redirect": "Visit Repositoire"
+        },
+        {
+          "name": "Connecteurs BBDD",
+          "redirect": "Visit Repositoire"
+        },
+        {
+          "name": "Contrôle des Versions",
+          "redirect": "Visit Repositoire"
+        },
+        {
+          "name": "Gestion de Fichiers",
+          "redirect": "Visit Repositoire"
+        },
+        {
+          "name": "Panier",
+          "redirect": "Visit Repositoire"
+        },
+        {
+          "name": "Test Algorithmique",
+          "redirect": "Visit Repositoire"
+        }
+      ]
     ]
   },
   "english": {
@@ -306,6 +468,87 @@
         {
           "name": "ESO - Computer Science",
           "entity": "IES CLA"
+        }
+      ]
+    ],
+    "portfolio": [
+      "PORTAFOLIO",
+      [
+        {
+          "name": "Cozy Coffee",
+          "redirect": "Visit Repository"
+        },
+        {
+          "name": "Pexels Stream",
+          "redirect": "Visit Web"
+        },
+        {
+          "name": "Card Realm",
+          "redirect": "Visit Web"
+        },
+        {
+          "name": "Slice Delight",
+          "redirect": "Visit Web"
+        },
+        {
+          "name": "Fair Share",
+          "redirect": "Visit Web"
+        },
+        {
+          "name": "Bag Pro",
+          "redirect": "Visit Web"
+        },
+        {
+          "name": "VisualStagram",
+          "redirect": "Visit Repository"
+        },
+        {
+          "name": "Pokemon 2D",
+          "redirect": "Visit Repository"
+        },
+        {
+          "name": "Parkour Climbing System",
+          "redirect": "Visit Repository"
+        },
+        {
+          "name": "Gothic Vania",
+          "redirect": "Visit Repository"
+        },
+        {
+          "name": "The Golden Touch",
+          "redirect": "Visit Repository"
+        },
+        {
+          "name": "Pokewalker",
+          "redirect": "Visit Repository"
+        },
+        {
+          "name": "Console Log System",
+          "redirect": "Visit Repository"
+        },
+        {
+          "name": "JUnit Tests",
+          "redirect": "Visit Repository"
+        },
+        {
+          "name": "BBDD Connectors",
+          "redirect": "Visit Repository"
+        },
+        {
+          "name": "Versioning",
+          "redirect": "Visit Repository"
+        },
+        {
+          "name": "Managing Files",
+          "redirect": "Visit Repository"
+        },
+        {
+          "name": "Cart",
+          "redirect": "Visit Repository"
+        },
+        {
+          "name": "Algoritmic Test",
+          "redirect": "Visit Repository"
         }
       ]
     ]
@@ -411,6 +654,87 @@
         {
           "name": "ESO - Informática",
           "entity": "IES CLA"
+        }
+      ]
+    ],
+    "portfolio": [
+      "PORTAFOLIO",
+      [
+        {
+          "name": "Cozy Coffee",
+          "redirect": "Visitar Repositório"
+        },
+        {
+          "name": "Pexels Stream",
+          "redirect": "Visitar Web"
+        },
+        {
+          "name": "Card Realm",
+          "redirect": "Visitar Web"
+        },
+        {
+          "name": "Slice Delight",
+          "redirect": "Visitar Web"
+        },
+        {
+          "name": "Fair Share",
+          "redirect": "Visitar Web"
+        },
+        {
+          "name": "Bag Pro",
+          "redirect": "Visitar Web"
+        },
+        {
+          "name": "VisualStagram",
+          "redirect": "Visitar Repositório"
+        },
+        {
+          "name": "Pokemon 2D",
+          "redirect": "Visitar Repositório"
+        },
+        {
+          "name": "Parkour Climbing System",
+          "redirect": "Visitar Repositório"
+        },
+        {
+          "name": "Gothic Vania",
+          "redirect": "Visitar Repositório"
+        },
+        {
+          "name": "The Golden Touch",
+          "redirect": "Visitar Repositório"
+        },
+        {
+          "name": "Pokewalker",
+          "redirect": "Visitar Repositório"
+        },
+        {
+          "name": "Console Log System",
+          "redirect": "Visitar Repositório"
+        },
+        {
+          "name": "Testes JUnit",
+          "redirect": "Visitar Repositório"
+        },
+        {
+          "name": "Conectores BBDD",
+          "redirect": "Visitar Repositório"
+        },
+        {
+          "name": "Control de Versões",
+          "redirect": "Visitar Repositório"
+        },
+        {
+          "name": "Gestão de Ficheiros",
+          "redirect": "Visitar Repositório"
+        },
+        {
+          "name": "Carrinho Compras",
+          "redirect": "Visitar Repositório"
+        },
+        {
+          "name": "Teste Algoritmia",
+          "redirect": "Visitar Repositório"
         }
       ]
     ]
