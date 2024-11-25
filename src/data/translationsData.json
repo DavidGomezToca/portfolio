@@ -181,6 +181,16 @@
           "redirect": "Visitar Repositorio"
         }
       ]
+    ],
+    "contact": [
+      "CONTACTO",
+      "España, Madrid",
+      "Nombre",
+      "Número de teléfono",
+      "Email",
+      "Asunto",
+      "Mensaje",
+      "Enviar Mensaje "
     ]
   },
   "french": {
@@ -367,6 +377,16 @@
           "redirect": "Visit Repositoire"
         }
       ]
+    ],
+    "contact": [
+      "CONTACT",
+      "Espagne, Madrid",
+      "Nom",
+      "Número de téléphone",
+      "Email",
+      "Objet",
+      "Message",
+      "Envoyer Message "
     ]
   },
   "english": {
@@ -551,6 +571,16 @@
           "redirect": "Visit Repository"
         }
       ]
+    ],
+    "contact": [
+      "CONTACT",
+      "Spain, Madrid",
+      "Name",
+      "Phone number",
+      "Email",
+      "Object",
+      "Message",
+      "Send Message "
     ]
   },
   "portuguese": {
@@ -737,6 +767,16 @@
           "redirect": "Visitar Repositório"
         }
       ]
+    ],
+    "contact": [
+      "CONTACTO",
+      "Espanha, Madrid",
+      "Nome",
+      "Número de telefone",
+      "Email",
+      "Assunto",
+      "Mensagem",
+      "Enviar Mensagem "
     ]
   }
 }

@@ -5,6 +5,7 @@ import SkillsSection from "./sections/SkillsSection"
 import CurriculumSection from "./sections/CurriculumSection"
 import DegreesSection from "./sections/DegreesSection"
 import PortfolioSection from "./sections/PortfolioSection"
+import ContactSection from "./sections/ContactSection"
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <CurriculumSection />
       <DegreesSection />
       <PortfolioSection />
+      <ContactSection />
     </div>
   )
 }
