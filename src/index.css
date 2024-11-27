@@ -38,11 +38,13 @@ html {
   scroll-behavior: smooth;
 }
 
-.color--dark--1 {
+.color--dark--1,
+.color--dark--1--hover:hover {
   color: var(--text--dark--1);
 }
 
-.color--light--1 {
+.color--light--1,
+.color--light--1--hover:hover {
   color: var(--text--light--1);
 }
 
@@ -674,5 +676,37 @@ footer div {
 
 footer span {
   margin: 0 20px;
+  font-size: 17px;
+}
+
+.back-to-top {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 14px 16px;
   font-size: 18px;
+  border-radius: 50%;
+  right: 25px;
+  bottom: 25px;
+  -webkit-box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.back-to-top:hover {
+  -webkit-box-shadow: -6px -6px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -6px -6px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -6px -6px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.visible {
+  opacity: 1;
+  visibility: visible;
 }
