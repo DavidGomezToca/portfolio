@@ -361,8 +361,8 @@ strong {
 }
 
 .carousel__container {
-  margin: 40px 0;
-  width: 1500px;
+  margin: 40px auto;
+  width: 1200px;
 }
 
 .carousel__container .swiper__container {
@@ -374,8 +374,14 @@ strong {
   overflow: hidden;
 }
 
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .swiper-wrapper .swiper-slide {
-  height: 500px;
+  height: 400px;
 }
 
 .section__curriculum {
@@ -484,7 +490,7 @@ strong {
 
 .section__degrees,
 .section__portfolio {
-  padding: 40px 150px;
+  padding: 50px 150px;
 }
 
 .degrees__container,

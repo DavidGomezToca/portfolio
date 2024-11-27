@@ -10,7 +10,7 @@
 
 - **STACK :**
 
-  - **Portfolio** : `0.12.0`
+  - **Portfolio** : `0.12.1`
   - **Swiper** : `11.1.14`
   - **React** : `18.3.1`
   - **React Dom** : `18.3.1`
@@ -26,3 +26,4 @@
 - **CREDITS :**
 
   - **Author : [David Gómez](https://github.com/DavidGomezToca)**
+  - **Icons : [Font Awesome](https://fontawesome.com)**
