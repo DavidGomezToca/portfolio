@@ -7,7 +7,8 @@
   --test__background--3: rgb(255, 247, 0);
   --transparent: rgba(0, 0, 0, 0);
   --shadow: rgb(100, 100, 100);
-  --background__image: url(../public/img/portfolio/background.png);
+  --home__image: url(../public/img/portfolio/home.png);
+  --contact__image: url(../public/img/portfolio/contact.png);
   --text--dark--1: #f4f4f4;
   --text--light--1: #3a3a3a;
   --text--dark--2: #1cb698;
@@ -16,6 +17,7 @@
   --background--light--1: #f0e6e6;
   --background--dark--2: #2b2c2c;
   --background--light--2: #e0dada;
+  --background--grey: #aeaeae;
   --overlay--dark: rgba(28, 182, 152, 0.84);
   --overlay--light: rgba(57, 121, 225, 0.84);
 }
@@ -189,7 +191,7 @@ body::-webkit-scrollbar {
   justify-content: center;
   align-items: center;
   background-size: cover;
-  background-image: var(--background__image);
+  background-image: var(--home__image);
 }
 
 .banner {
@@ -558,6 +560,8 @@ strong {
 
 .section__contact {
   padding: 40px 150px;
+  background-size: cover;
+  background-image: var(--contact__image);
 }
 
 .contact__container {
@@ -577,22 +581,21 @@ strong {
 }
 
 .contact__info {
-  margin-top: 100px;
   position: relative;
   top: 40%;
   padding: 20px;
-  width: 350px;
+  width: 380px;
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 10px;
 }
 
 .contact__info ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   list-style: none;
-}
-
-.contact__info ul li {
-  margin-bottom: 20px;
+  margin-left: 10px;
 }
 
 .contact__info ul li i {
@@ -614,7 +617,7 @@ strong {
 
 .contact__container button {
   cursor: pointer;
-  background-color: transparent;
+  background-color: var(--background--grey);
   border: 2px solid;
   border-radius: 10px;
   width: fit-content;
@@ -640,4 +643,36 @@ strong {
 
 .contact__container button:hover .overlay {
   width: 100%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  position: relative;
+}
+
+footer .up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -25px;
+  border-radius: 50%;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+footer div {
+  margin-top: 25px;
+}
+
+footer span {
+  margin: 0 20px;
+  font-size: 18px;
 }
