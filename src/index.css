@@ -102,12 +102,20 @@ html {
   );
 }
 
-.border--dark {
-  border-color: var(--text--dark--2);
+.border--dark--1 {
+  border-color: var(--background--light--1) !important;
 }
 
-.border--light {
-  border-color: var(--text--light--2);
+.border--dark--2 {
+  border-color: var(--text--dark--2) !important;
+}
+
+.border--light--1 {
+  border-color: var(--background--dark--1) !important;
+}
+
+.border--light--2 {
+  border-color: var(--text--light--2) !important;
 }
 
 .overlay--dark {
@@ -139,6 +147,9 @@ body::-webkit-scrollbar {
 
 .nav__element {
   margin: 0 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .nav__logo {
@@ -150,11 +161,6 @@ body::-webkit-scrollbar {
 
 .header ul {
   list-style: none;
-}
-
-.nav__element {
-  display: flex;
-  align-items: center;
 }
 
 .nav__section {
@@ -699,9 +705,11 @@ footer span {
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s ease, visibility 0.3s ease;
+  transition: 0.4s;
 }
 
 .back-to-top:hover {
+  transform: scale(1.3);
   -webkit-box-shadow: -6px -6px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -6px -6px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: -6px -6px 5px 0px rgba(0, 0, 0, 0.75);
@@ -715,4 +723,32 @@ footer span {
 .visible {
   opacity: 1;
   visibility: visible;
+}
+
+.nav__language__menu {
+  position: absolute;
+  top: 61px; /* Justo debajo de la bandera principal */
+  right: -30px;
+  z-index: 100; /* Asegúrate de que quede sobre otros elementos */
+}
+
+.nav__language__flag-option {
+  display: flex;
+  align-items: center;
+  padding: 14px 20px;
+  gap: 30px; /* Espaciado entre la bandera y el texto */
+  color: var(--color-text); /* Color del texto según tu tema */
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  cursor: pointer;
+  border: 2px solid;
+  transition: background-color 0.2s ease;
+}
+
+.nav__language__flag-option img {
+  width: 60px; /* Tamaño de las banderas */
+  height: 46px;
+  object-fit: cover;
+  border-radius: 8px;
 }

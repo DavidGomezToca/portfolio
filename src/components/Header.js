@@ -1,11 +1,23 @@
-import { useContext } from 'react'
+import { useContext, useState } from 'react'
 import { ThemeContext } from '../contexts/ThemeContext'
 import { TranslationsContext } from '../contexts/TranslationsContext'
 
 export default function Header() {
     const { theme, toggleTheme } = useContext(ThemeContext)
-    const { language, translations, toggleLanguage } = useContext(TranslationsContext)
+    const { language, languages, translations, selectLanguage } = useContext(TranslationsContext)
+
     const sections = translations.sections
+
+    const [isMenuLanguagesOpen, setIsMenuLanguagesOpen] = useState(false)
+
+    function HanddleMenuLanguages() {
+        setIsMenuLanguagesOpen((prevIsMenuLanguagesOpen) => !prevIsMenuLanguagesOpen)
+    }
+
+    function HanddleSelectLanguage(language) {
+        setIsMenuLanguagesOpen(false)
+        selectLanguage(language)
+    }
 
     return (
         <header className={`header background--${theme}--1`}>
@@ -39,10 +51,7 @@ export default function Header() {
     function NavA({ section }) {
         return (
             <li className="nav__element">
-                <a
-                    className={`nav__section color--${theme}--1 color--${theme}--2--hover`}
-                    href={`#${section}`}
-                >
+                <a className={`nav__section color--${theme}--1 color--${theme}--2--hover`} href={`#${section}`}>
                     {`${section.toUpperCase()}`}
                 </a>
             </li>
@@ -52,10 +61,7 @@ export default function Header() {
     function ThemeButton() {
         return (
             <li className="nav__element">
-                <button
-                    className={`nav__theme__button color--${theme}--1 color--${theme}--2--hover fa-regular fa-xl fa-${theme === "dark" ? "moon" : "sun"}`}
-                    onClick={toggleTheme}
-                />
+                <button className={`nav__theme__button color--${theme}--1 color--${theme}--2--hover fa-regular fa-xl fa-${theme === "dark" ? "moon" : "sun"}`} onClick={toggleTheme} />
             </li>
         )
     }
@@ -63,8 +69,21 @@ export default function Header() {
     function LanguageFlag() {
         return (
             <li className="nav__element">
-                <img className="nav__language__flag" src={`/img/portfolio/flags/${language}.png`} alt="language_menu" onClick={toggleLanguage} />
-            </li>
+                <img className="nav__language__flag" src={`/img/portfolio/flags/${language}.png`} alt="language_menu" onClick={HanddleMenuLanguages} />
+                {isMenuLanguagesOpen &&
+                    <div className={`nav__language__menu background--${theme}--2`}>
+                        {languages.map((language) => (
+                            <div key={`flag-${language.code}`} className={`nav__language__flag-option border--${theme}--1`} onClick={() => HanddleSelectLanguage(language.name)}>
+                                <span className={`color--${theme}--1`}>{language.code.toUpperCase()} </span>
+                                <img
+                                    src={`/img/portfolio/flags/${language.name}.png`}
+                                    alt={`${language.code}_flag`}
+                                />
+                            </div>
+                        ))}
+                    </div>
+                }
+            </li >
         )
     }
 }
