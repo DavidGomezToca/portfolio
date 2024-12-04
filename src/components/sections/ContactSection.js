@@ -35,13 +35,13 @@ export default function ContactSection() {
                             </ul>
                         </div>
                     </div>
-                    <div className="contact__column">
+                    <div className={`contact__column`}>
                         <form action="https://formspree.io/f/mknlrgbd" method="POST">
-                            <input className={`background--${theme}--1`} type="text" name="Nombre" placeholder={contactTexts[2]} required />
-                            <input className={`background--${theme}--1`} type="text" name="Número de teléfono" placeholder={contactTexts[3]} />
-                            <input className={`background--${theme}--1`} type="email" name="Email" placeholder={contactTexts[4]} required />
-                            <input className={`background--${theme}--1`} type="text" name="Asunto" placeholder={contactTexts[5]} required />
-                            <textarea className={`background--${theme}--1`} name="Mensaje" cols="30" rows="10" placeholder={contactTexts[6]} required />
+                            <input className={`background--${theme}--1 color--${theme}--1`} type="text" name="Nombre" placeholder={contactTexts[2]} required />
+                            <input className={`background--${theme}--1 color--${theme}--1`} type="text" name="Número de teléfono" placeholder={contactTexts[3]} />
+                            <input className={`background--${theme}--1 color--${theme}--1`} type="email" name="Email" placeholder={contactTexts[4]} required autoComplete="true" />
+                            <input className={`background--${theme}--1 color--${theme}--1`} type="text" name="Asunto" placeholder={contactTexts[5]} required />
+                            <textarea className={`background--${theme}--1 color--${theme}--1`} name="Mensaje" cols="30" rows="10" placeholder={contactTexts[6]} required />
                             <button className={`color--${theme}--1`}>
                                 <span>{contactTexts[7]}</span>
                                 <i className="fa-solid fa-paper-plane" />

@@ -164,7 +164,7 @@ body::-webkit-scrollbar {
 }
 
 .nav__section {
-  font-size: 18px;
+  font-size: 20px;
   text-decoration: none;
   font-weight: bold;
 }
@@ -174,6 +174,7 @@ body::-webkit-scrollbar {
   border: none;
   height: 100%;
   cursor: pointer;
+  width: 25px;
 }
 
 .nav__logo a,
@@ -187,10 +188,19 @@ body::-webkit-scrollbar {
   transition: 0.3s;
 }
 
+.nav__theme__button--animate {
+  animation: rotateX 0.6s;
+}
+
 .nav__language__flag {
   width: 60px;
   border-radius: 6px;
   cursor: pointer;
+  border: 2px solid;
+}
+
+.nav__language__flag:hover {
+  transform: scale(1.1);
 }
 
 .section__home {
@@ -251,6 +261,10 @@ body::-webkit-scrollbar {
   transition: 0.3s;
 }
 
+.social__media__icon:hover {
+  transform: scale(1.06);
+}
+
 .social__media__icon i {
   font-size: 1.4rem;
   width: 45px;
@@ -273,6 +287,7 @@ body::-webkit-scrollbar {
 
 .section__about__me h3 {
   font-size: 1.6rem;
+  margin-bottom: 10px;
 }
 
 .section__about__me p {
@@ -325,6 +340,10 @@ strong {
   align-items: center;
   transition: 0.3s;
   margin: 0 5px;
+}
+
+.interests__container .interest__item:hover {
+  animation: rotateZ 2.4s ease-in-out;
 }
 
 .interest__item i {
@@ -560,7 +579,7 @@ strong {
 
 .project__redirect {
   position: absolute;
-  bottom: 14px;
+  bottom: 22px;
   left: 50%;
   transform: translateX(-50%);
   color: #fff;
@@ -569,6 +588,7 @@ strong {
 }
 
 .project__redirect:hover {
+  font-size: 22px;
   color: #000;
 }
 
@@ -597,7 +617,7 @@ strong {
 .contact__info {
   position: relative;
   top: 40%;
-  padding: 20px;
+  padding: 24px 20px;
   width: 380px;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -727,17 +747,17 @@ footer span {
 
 .nav__language__menu {
   position: absolute;
-  top: 61px; /* Justo debajo de la bandera principal */
+  top: 61px;
   right: -30px;
-  z-index: 100; /* Asegúrate de que quede sobre otros elementos */
+  z-index: 100;
 }
 
-.nav__language__flag-option {
+.nav__language__flag--option {
   display: flex;
   align-items: center;
   padding: 14px 20px;
-  gap: 30px; /* Espaciado entre la bandera y el texto */
-  color: var(--color-text); /* Color del texto según tu tema */
+  gap: 30px;
+  color: var(--color-text);
   font-size: 18px;
   font-weight: bold;
   text-align: left;
@@ -746,9 +766,31 @@ footer span {
   transition: background-color 0.2s ease;
 }
 
-.nav__language__flag-option img {
-  width: 60px; /* Tamaño de las banderas */
+.nav__language__flag--option:hover span {
+  transform: scale(1.08); /* Agranda el texto */
+}
+
+.nav__language__flag--option img {
+  width: 60px;
   height: 46px;
   object-fit: cover;
   border-radius: 8px;
+}
+
+@keyframes rotateZ {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes rotateX {
+  from {
+    transform: rotateX(180deg);
+  }
+  to {
+    transform: rotateX(360deg);
+  }
 }

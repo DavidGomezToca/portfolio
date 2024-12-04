@@ -1,4 +1,4 @@
-import { useContext, useState } from 'react'
+import { useContext, useState, useRef } from 'react'
 import { ThemeContext } from '../contexts/ThemeContext'
 import { TranslationsContext } from '../contexts/TranslationsContext'
 
@@ -9,6 +9,15 @@ export default function Header() {
     const sections = translations.sections
 
     const [isMenuLanguagesOpen, setIsMenuLanguagesOpen] = useState(false)
+    const isToggleThemeAnimationRunning = useRef(false)
+
+    function HanddleToggleTheme() {
+        if (!isToggleThemeAnimationRunning.current) {
+            isToggleThemeAnimationRunning.current = true
+            setTimeout(() => { isToggleThemeAnimationRunning.current = false }, 600)
+            toggleTheme()
+        }
+    }
 
     function HanddleMenuLanguages() {
         setIsMenuLanguagesOpen((prevIsMenuLanguagesOpen) => !prevIsMenuLanguagesOpen)
@@ -61,7 +70,7 @@ export default function Header() {
     function ThemeButton() {
         return (
             <li className="nav__element">
-                <button className={`nav__theme__button color--${theme}--1 color--${theme}--2--hover fa-regular fa-xl fa-${theme === "dark" ? "moon" : "sun"}`} onClick={toggleTheme} />
+                <button className={`nav__theme__button color--${theme}--1 color--${theme}--2--hover fa-regular fa-xl fa-${theme === "dark" ? "moon" : "sun"} ${isToggleThemeAnimationRunning.current ? "nav__theme__button--animate" : ""}`} onClick={HanddleToggleTheme} />
             </li>
         )
     }
@@ -69,12 +78,12 @@ export default function Header() {
     function LanguageFlag() {
         return (
             <li className="nav__element">
-                <img className="nav__language__flag" src={`/img/portfolio/flags/${language}.png`} alt="language_menu" onClick={HanddleMenuLanguages} />
+                <img className={`nav__language__flag border--${theme}--1`} src={`/img/portfolio/flags/${language}.png`} alt="language_menu" onClick={HanddleMenuLanguages} />
                 {isMenuLanguagesOpen &&
-                    <div className={`nav__language__menu background--${theme}--2`}>
+                    <div className={`nav__language__menu background--${theme}--2 color--${theme}--1`}>
                         {languages.map((language) => (
-                            <div key={`flag-${language.code}`} className={`nav__language__flag-option border--${theme}--1`} onClick={() => HanddleSelectLanguage(language.name)}>
-                                <span className={`color--${theme}--1`}>{language.code.toUpperCase()} </span>
+                            <div key={`flag-${language.code}`} className={`nav__language__flag--option border--${theme}--1  color--${theme}--2--hover`} onClick={() => HanddleSelectLanguage(language.name)}>
+                                <span className={``}>{language.code.toUpperCase()} </span>
                                 <img
                                     src={`/img/portfolio/flags/${language.name}.png`}
                                     alt={`${language.code}_flag`}

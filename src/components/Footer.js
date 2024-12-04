@@ -12,6 +12,7 @@ export default function Footer() {
     const version = require("../../package.json").version;
 
     const [isScrolled, setIsScrolled] = useState(false);
+    const year = new Date().getFullYear()
 
     useEffect(() => {
         const handleScroll = () => {
@@ -34,7 +35,7 @@ export default function Footer() {
             <SocialMedia />
             <div>
                 <span>PORTFOLIO v{version}</span>
-                <span>COPYRYGT 2024</span>
+                <span>COPYRYGT {year}</span>
             </div>
             <a
                 className={`back-to-top color--${theme}--2 color--${theme}--1--hover background--${theme}--2--hover ${isScrolled ? "visible" : "hidden"}`}
