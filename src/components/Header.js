@@ -1,13 +1,16 @@
 import { useContext, useState, useRef } from 'react'
 import { ThemeContext } from '../contexts/ThemeContext'
 import { TranslationsContext } from '../contexts/TranslationsContext'
+import { useWindowSize } from '../contexts/WindowSizeContext'
 
 export default function Header() {
     const { theme, toggleTheme } = useContext(ThemeContext)
     const { language, languages, translations, selectLanguage } = useContext(TranslationsContext)
+    const isBelow1100px = useWindowSize()
 
     const sections = translations.sections
 
+    const [isMenuOptionsOpen, setIsMenuOptionsOpen] = useState(false)
     const [isMenuLanguagesOpen, setIsMenuLanguagesOpen] = useState(false)
     const isToggleThemeAnimationRunning = useRef(false)
 
@@ -19,8 +22,14 @@ export default function Header() {
         }
     }
 
+    function HanddleMenuOptions() {
+        setIsMenuOptionsOpen((prevIsMenuOptionsOpern) => !prevIsMenuOptionsOpern)
+        setIsMenuLanguagesOpen(false)
+    }
+
     function HanddleMenuLanguages() {
         setIsMenuLanguagesOpen((prevIsMenuLanguagesOpen) => !prevIsMenuLanguagesOpen)
+        setIsMenuOptionsOpen(false)
     }
 
     function HanddleSelectLanguage(language) {
@@ -32,12 +41,50 @@ export default function Header() {
         <header className={`header background--${theme}--1`}>
             <nav className="header__nav">
                 <NavLogo />
-                <NavSections />
-                <ThemeButton />
+                {isBelow1100px ?
+                    <MenuNav />
+                    :
+                    <>
+                        <NavSections />
+                        <ThemeButton />
+                    </>
+                }
                 <LanguageFlag />
             </nav>
         </header>
     )
+
+    function MenuNav() {
+        return (
+            <div className={`nav__element header__menu background--${theme}--3`} onClick={() => HanddleMenuOptions()}>
+                {isMenuOptionsOpen &&
+                    <div className={`nav__options__menu background--${theme}--2 color--${theme}--1`}>
+                        {sections.map((section) => (<MenuSection key={`menu-${section}`} section={section} />))}
+                        <MenuTheme />
+                    </div>
+                }
+                <i className="fa-solid fa-bars" />
+            </div>
+        )
+    }
+
+    function MenuSection({ section }) {
+        return (
+            <a className={`menu__section border--${theme}--1  color--${theme}--2--hover`} href={`#${section}`}>
+                <p className={`nav__section`}>
+                    {`${section.toUpperCase()}`}
+                </p>
+            </a>
+        )
+    }
+
+    function MenuTheme() {
+        return (
+            <div className={`menu__theme border--${theme}--1 color--${theme}--2--hover`} onClick={HanddleToggleTheme}>
+                <i className={`nav__theme__button fa-regular fa-xl fa-${theme === "dark" ? "moon" : "sun"}`} />
+            </div>
+        )
+    }
 
     function NavLogo() {
         return (
