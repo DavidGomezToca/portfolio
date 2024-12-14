@@ -1,10 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap");
 
 :root {
-  /* TODO: Delete test colors */
-  --test__background--1: rgba(80, 162, 220, 0.8);
-  --test__background--2: rgba(220, 80, 80, 0.8);
-  --test__background--3: rgb(255, 247, 0);
   --transparent: rgba(0, 0, 0, 0);
   --shadow: rgb(100, 100, 100);
   --home__image: url(../public/img/portfolio/home.png);
@@ -213,6 +209,60 @@ body::-webkit-scrollbar {
   transform: scale(1.1);
 }
 
+.nav__language__menu,
+.nav__options__menu {
+  position: absolute;
+  top: 61px;
+  right: -20px;
+  z-index: 100;
+}
+
+.nav__options__menu {
+  top: 55px;
+}
+
+.nav__language__flag--option,
+.menu__section,
+.menu__theme {
+  display: flex;
+  align-items: center;
+  padding: 14px 20px;
+  gap: 30px;
+  color: var(--color-text);
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  cursor: pointer;
+  border: 2px solid;
+  transition: background-color 0.2s ease;
+}
+
+.menu__theme {
+  padding: 16px 12px;
+  font-size: 18px;
+}
+
+.menu__section {
+  padding: 10px 12px;
+  text-decoration: none;
+  width: 160px;
+}
+
+.menu__section p {
+  font-size: 16px;
+}
+
+.nav__language__flag--option:hover span {
+  transform: scale(1.08);
+}
+
+.nav__language__flag--option img {
+  width: 60px;
+  height: 46px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
 .section__home {
   height: 100vh;
   display: flex;
@@ -220,6 +270,7 @@ body::-webkit-scrollbar {
   align-items: center;
   background-size: cover;
   background-image: var(--home__image);
+  background-position: center;
 }
 
 .banner {
@@ -755,60 +806,6 @@ footer span {
   visibility: visible;
 }
 
-.nav__language__menu,
-.nav__options__menu {
-  position: absolute;
-  top: 61px;
-  right: -30px;
-  z-index: 100;
-}
-
-.nav__options__menu {
-  top: 55px;
-}
-
-.nav__language__flag--option,
-.menu__section,
-.menu__theme {
-  display: flex;
-  align-items: center;
-  padding: 14px 20px;
-  gap: 30px;
-  color: var(--color-text);
-  font-size: 18px;
-  font-weight: bold;
-  text-align: left;
-  cursor: pointer;
-  border: 2px solid;
-  transition: background-color 0.2s ease;
-}
-
-.menu__theme {
-  padding: 16px 12px;
-  font-size: 18px;
-}
-
-.menu__section {
-  padding: 10px 12px;
-  text-decoration: none;
-  width: 160px;
-}
-
-.menu__section p {
-  font-size: 16px;
-}
-
-.nav__language__flag--option:hover span {
-  transform: scale(1.08);
-}
-
-.nav__language__flag--option img {
-  width: 60px;
-  height: 46px;
-  object-fit: cover;
-  border-radius: 8px;
-}
-
 @keyframes rotateZ {
   from {
     transform: rotateZ(0deg);
@@ -830,5 +827,39 @@ footer span {
 @media screen and (max-width: 1100px) {
   .header__nav {
     justify-content: right;
+  }
+
+  .banner {
+    width: 320px;
+    height: 520px;
+  }
+
+  .banner__img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .banner__title {
+    font-size: 2.4rem;
+    margin: 20px 0;
+  }
+
+  .banner__description {
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+  }
+
+  .social__media__icon {
+    margin: 0 8px;
+  }
+
+  .social__media__icon:hover {
+    transform: scale(1.06);
+  }
+
+  .social__media__icon i {
+    font-size: 1.2rem;
+    width: 40px;
+    height: 40px;
   }
 }
