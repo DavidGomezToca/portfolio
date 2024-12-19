@@ -336,7 +336,7 @@ body::-webkit-scrollbar {
 }
 
 .section__about__me {
-  padding: 30px 400px;
+  padding: 30px 250px;
 }
 
 .section__title {
@@ -471,7 +471,7 @@ strong {
 }
 
 .section__curriculum {
-  padding: 40px 200px;
+  padding: 40px 75px;
 }
 
 .curriculum__row {
@@ -861,5 +861,47 @@ footer span {
     font-size: 1.2rem;
     width: 40px;
     height: 40px;
+  }
+
+  .section__about__me {
+    padding: 30px 100px;
+  }
+
+  .section__title {
+    font-size: 2.6rem;
+  }
+
+  strong {
+    width: 110px;
+  }
+
+  .download__cv {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+
+  .section__curriculum {
+    padding: 40px 00px;
+  }
+
+  .curriculum__column {
+    width: 50%;
+    padding: 0 10px;
+  }
+
+  .curriculum__item {
+    padding: 20px 24px;
+  }
+
+  .formation__item {
+    margin-right: 38px;
+  }
+  
+  .experience__item {
+    margin-left: 38px;
+  }
+
+  .curriculum__item p {
+    text-align: left;
   }
 }
