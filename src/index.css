@@ -576,7 +576,7 @@ strong {
 
 .section__degrees,
 .section__portfolio {
-  padding: 50px 150px;
+  padding: 50px 100px;
 }
 
 .degrees__container,
@@ -896,12 +896,17 @@ footer span {
   .formation__item {
     margin-right: 38px;
   }
-  
+
   .experience__item {
     margin-left: 38px;
   }
 
   .curriculum__item p {
     text-align: left;
+  }
+
+  .degree__item,
+  .portfolio__item {
+    margin: 14px 24px;
   }
 }
