@@ -37,8 +37,7 @@ export default function Footer() {
                 <span>PORTFOLIO v{version}</span>
                 <span>COPYRYGT {year}</span>
             </div>
-            <a
-                className={`back-to-top color--${theme}--2 color--${theme}--1--hover background--${theme}--2--hover ${isScrolled ? "visible" : "hidden"}`}
+            <a className={`back-to-top color--${theme}--2 color--${theme}--1--hover background--${theme}--2--hover ${isScrolled ? "visible" : "hidden"}`}
                 href={`#${sections[0]}`}>
                 <i className="fa-solid fa-angles-up" />
             </a>

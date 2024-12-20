@@ -909,4 +909,8 @@ footer span {
   .portfolio__item {
     margin: 14px 24px;
   }
+
+  .section__contact{
+    padding: 40px 100px;
+  }
 }
