@@ -11,9 +11,9 @@ export default function DegreesSection() {
     const sections = translations.sections
     const degreesTexts = translations.degrees
 
-    const rows = [];
+    const rows = []
     for (let i = 0; i < DegreesData.length; i += 4) {
-        rows.push(DegreesData.slice(i, i + 4));
+        rows.push(DegreesData.slice(i, i + 4))
     }
 
     return (

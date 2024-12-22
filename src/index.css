@@ -910,7 +910,25 @@ footer span {
     margin: 14px 24px;
   }
 
-  .section__contact{
+  .section__contact {
     padding: 40px 100px;
+  }
+
+  .swiper-slide {
+    width: 200px !important;
+    height: 200px !important;
+    margin: 0 10px;
+  }
+
+  .swiper__slide {
+    border-radius: 60px;
+  }
+
+  .carousel__container {
+    width: 680px !important;
+  }
+
+  .swiper__container {
+    width: 680px !important;
   }
 }

@@ -12,7 +12,6 @@ import "swiper/css/navigation"
 
 import SkillsData from "../../data/skillsData.json"
 
-// TODO: Add Responsive
 export default function SkillsSection() {
     const { theme } = useContext(ThemeContext)
     const { translations } = useContext(TranslationsContext)
@@ -23,28 +22,26 @@ export default function SkillsSection() {
     const skills = SkillsData
 
     return (
-        !isBelow1100px && (
-            <section id={sections[2]} className={`section__skills color--${theme}--1 background--${theme}--2`}>
-                <h1 className="section__title">{skillsTexts[0]}</h1>
-                <div className="carousel__container">
-                    <Swiper
-                        effect={"coverflow"}
-                        autoplay={{ delay: 1000, disableOnInteraction: false }}
-                        grabCursor={true}
-                        centeredSlides={true}
-                        loop={true}
-                        slidesPerView={"3"}
-                        modules={[Autoplay, EffectCoverflow]}
-                        className="swiper__container">
-                        {skills.map((skill) => (
-                            <SwiperSlide key={skill.file} className="swiper__slide" >
-                                <SkillSlide skill={skill} />
-                            </SwiperSlide>
-                        ))}
-                    </Swiper>
-                </div >
-            </section>
-        )
+        <section id={sections[2]} className={`section__skills color--${theme}--1 background--${theme}--2`}>
+            <h1 className="section__title">{skillsTexts[0]}</h1>
+            <div className="carousel__container">
+                <Swiper
+                    effect={`${isBelow1100px ? "cube" : "coverflow"}`}
+                    autoplay={{ delay: 1000, disableOnInteraction: true }}
+                    grabCursor={true}
+                    centeredSlides={true}
+                    loop={true}
+                    slidesPerView={"3"}
+                    modules={[Autoplay, EffectCoverflow]}
+                    className="swiper__container">
+                    {skills.map((skill) => (
+                        <SwiperSlide key={skill.file} className="swiper__slide" >
+                            <SkillSlide skill={skill} />
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
+            </div >
+        </section>
     )
 
     function SkillSlide({ skill }) {

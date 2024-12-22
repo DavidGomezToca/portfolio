@@ -11,9 +11,9 @@ export default function Portfolio() {
     const sections = translations.sections
     const portfolioTexts = translations.portfolio
 
-    const rows = [];
+    const rows = []
     for (let i = 0; i < PortfolioData.length; i += 4) {
-        rows.push(PortfolioData.slice(i, i + 4));
+        rows.push(PortfolioData.slice(i, i + 4))
     }
 
     return (

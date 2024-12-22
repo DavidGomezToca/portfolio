@@ -1,31 +1,31 @@
-import { useContext, useState, useEffect } from "react";
-import { ThemeContext } from "../contexts/ThemeContext";
-import { TranslationsContext } from "../contexts/TranslationsContext";
+import { useContext, useState, useEffect } from "react"
+import { ThemeContext } from "../contexts/ThemeContext"
+import { TranslationsContext } from "../contexts/TranslationsContext"
 
-import SocialMedia from "./SocialMedia";
+import SocialMedia from "./SocialMedia"
 
 export default function Footer() {
-    const { theme } = useContext(ThemeContext);
-    const { translations } = useContext(TranslationsContext);
+    const { theme } = useContext(ThemeContext)
+    const { translations } = useContext(TranslationsContext)
 
-    const sections = translations.sections;
-    const version = require("../../package.json").version;
+    const sections = translations.sections
+    const version = require("../../package.json").version
 
-    const [isScrolled, setIsScrolled] = useState(false);
+    const [isScrolled, setIsScrolled] = useState(false)
     const year = new Date().getFullYear()
 
     useEffect(() => {
         const handleScroll = () => {
-            const scrollPosition = window.scrollY;
-            setIsScrolled(scrollPosition > 200);
-        };
+            const scrollPosition = window.scrollY
+            setIsScrolled(scrollPosition > 200)
+        }
 
-        window.addEventListener("scroll", handleScroll);
+        window.addEventListener("scroll", handleScroll)
 
         return () => {
-            window.removeEventListener("scroll", handleScroll);
-        };
-    }, []);
+            window.removeEventListener("scroll", handleScroll)
+        }
+    }, [])
 
     return (
         <footer className={`footer color--${theme}--1 background--${theme}--2`}>
@@ -42,5 +42,5 @@ export default function Footer() {
                 <i className="fa-solid fa-angles-up" />
             </a>
         </footer>
-    );
+    )
 }

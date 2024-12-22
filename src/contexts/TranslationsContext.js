@@ -11,7 +11,7 @@ export function TranslationsProvider({ children }) {
         { code: "fr", name: "french" },
         { code: "en", name: "english" },
         { code: "pt", name: "portuguese" },
-    ];
+    ]
 
     function handleSelectLanguage(language) {
         setLanguage(language)
