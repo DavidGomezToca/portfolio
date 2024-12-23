@@ -343,7 +343,7 @@ body::-webkit-scrollbar {
   text-align: center;
   font-size: 2.8rem;
   font-family: "Righteous";
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .section__about__me h3 {
@@ -381,10 +381,6 @@ body::-webkit-scrollbar {
 .personal__information__item strong {
   display: inline-block;
   width: 130px;
-}
-
-.personal__information__item p {
-  margin-top: 20px;
 }
 
 .interests .interests__container {
@@ -914,10 +910,104 @@ footer span {
   .section__contact {
     padding: 40px 40px;
   }
+
+  .social__media__icon:hover {
+    transform: scale(1.06);
+  }
+
+  .social__media__icon i {
+    font-size: 1.4rem;
+    width: 40px;
+    height: 40px;
+  }
 }
 
 @media screen and (max-width: 800px) {
+  .more__about__me {
+    display: inline;
+  }
+
+  .more__about__me div {
+    width: 100%;
+    margin-top: 30px;
+  }
+
   .contact__info {
     width: auto;
+  }
+
+  .contact__row {
+    display: inline;
+  }
+
+  .contact__column {
+    width: 100%;
+  }
+
+  .contact__info {
+    left: 0%;
+    transform: translate(0%, 0%);
+  }
+
+  .curriculum__row {
+    display: inline;
+  }
+
+  .curriculum__column {
+    width: 100%;
+    padding: 0 30px;
+    margin-top: 60px;
+  }
+
+  .curriculum__item__title {
+    font-size: 20px;
+    margin-bottom: 14px;
+  }
+
+  .connector {
+    display: none;
+  }
+
+  .formation__column,
+  .experience__column {
+    border: 0px;
+  }
+
+  .formation__item,
+  .experience__item {
+    border: 0px;
+    border-radius: 30px;
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .banner {
+    width: 330px;
+    height: 550px;
+  }
+
+  .banner__img {
+    width: 220px;
+    height: 220px;
+    border: 8px solid;
+  }
+
+  .banner__title {
+    font-size: 2.4rem;
+  }
+
+  .banner__description {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+
+  .section__about__me {
+    padding: 30px 50px;
+  }
+
+  .section__degrees,
+  .section__portfolio {
+    padding: 50px 0px;
   }
 }
