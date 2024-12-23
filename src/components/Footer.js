@@ -33,7 +33,7 @@ export default function Footer() {
                 <i className="fa-solid fa-angles-up" />
             </a>
             <SocialMedia />
-            <div>
+            <div className="footer__texts">
                 <span>PORTFOLIO v{version}</span>
                 <span>COPYRYGT {year}</span>
             </div>

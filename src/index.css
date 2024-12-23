@@ -842,6 +842,70 @@ footer span {
   .swiper__container {
     width: 680px !important;
   }
+
+  .header {
+    padding: 10px 0;
+  }
+
+  .header__menu {
+    /* height: 30px; */
+  }
+
+  .nav__element {
+    margin: 0 10px;
+  }
+
+  .nav__logo {
+    font-size: 24px;
+  }
+
+  .header ul {
+    list-style: none;
+  }
+
+  .nav__section {
+    font-size: 16px;
+  }
+
+  .nav__language__flag {
+    width: 50px;
+  }
+
+  .nav__language__menu,
+  .nav__options__menu {
+    top: 45px;
+  }
+
+  .nav__options__menu {
+    top: 43px;
+  }
+
+  .nav__language__flag--option,
+  .menu__section,
+  .menu__theme {
+    padding: 12px 18px;
+    gap: 20px;
+    font-size: 16px;
+  }
+
+  .menu__theme {
+    padding: 14px 10px;
+    font-size: 16px;
+  }
+
+  .menu__section {
+    padding: 8px 10px;
+    width: 150px;
+  }
+
+  .menu__section p {
+    font-size: 16px;
+  }
+
+  .nav__language__flag--option img {
+    width: 56px;
+    height: 42px;
+  }
 }
 
 @media screen and (max-width: 1100px) {
@@ -932,6 +996,10 @@ footer span {
     margin-top: 30px;
   }
 
+  .section__contact {
+    padding: 40px 0;
+  }
+
   .contact__info {
     width: auto;
   }
@@ -947,6 +1015,7 @@ footer span {
   .contact__info {
     left: 0%;
     transform: translate(0%, 0%);
+    padding: 24px 10px;
   }
 
   .curriculum__row {
@@ -1003,11 +1072,15 @@ footer span {
   }
 
   .section__about__me {
-    padding: 30px 50px;
+    padding: 30px 30px;
   }
 
   .section__degrees,
   .section__portfolio {
     padding: 50px 0px;
+  }
+
+  .footer__texts {
+    display: flex;
   }
 }
