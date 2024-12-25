@@ -1,6 +1,6 @@
-import { useContext } from 'react'
-import { ThemeContext } from '../../contexts/ThemeContext'
-import { TranslationsContext } from '../../contexts/TranslationsContext'
+import { useContext } from "react"
+import { ThemeContext } from "../../contexts/ThemeContext"
+import { TranslationsContext } from "../../contexts/TranslationsContext"
 
 import personalInformationData from "../../data/personalInformationData.json"
 import interestsData from "../../data/interestsData.json"
@@ -42,7 +42,7 @@ export default function AboutMeSection() {
                 <ul>
                     {aboutMeTexts[4].map((information, index) => (<PersonalInformationItem key={`P-I-I ${index}`} information={information} index={index} />))}
                 </ul>
-            </div >
+            </div>
         )
     }
 

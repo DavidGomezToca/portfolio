@@ -1,12 +1,12 @@
-import { useContext, useState, useRef } from 'react'
-import { ThemeContext } from '../contexts/ThemeContext'
-import { TranslationsContext } from '../contexts/TranslationsContext'
-import { useWindowSize } from '../contexts/WindowSizeContext'
+import { useContext, useState, useRef } from "react"
+import { ThemeContext } from "../contexts/ThemeContext"
+import { TranslationsContext } from "../contexts/TranslationsContext"
+import { useWindowSize } from "../contexts/WindowSizeContext"
 
 export default function Header() {
     const { theme, toggleTheme } = useContext(ThemeContext)
     const { language, languages, translations, selectLanguage } = useContext(TranslationsContext)
-    const isBelow1100px = useWindowSize()
+    const { isBelow1100px } = useWindowSize()
 
     const sections = translations.sections
 
@@ -41,9 +41,7 @@ export default function Header() {
         <header className={`header background--${theme}--1`}>
             <nav className="header__nav">
                 <NavLogo />
-                {isBelow1100px ?
-                    <MenuNav />
-                    :
+                {isBelow1100px ? <MenuNav /> :
                     <>
                         <NavSections />
                         <ThemeButton />
@@ -92,7 +90,7 @@ export default function Header() {
                 <a className={`nav__logo color--${theme}--2`} href={`#${sections[0]}`}>
                     David Gómez
                 </a>
-            </div >
+            </div>
         )
     }
 
@@ -139,7 +137,7 @@ export default function Header() {
                         ))}
                     </div>
                 }
-            </li >
+            </li>
         )
     }
 }

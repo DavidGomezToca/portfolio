@@ -1,4 +1,4 @@
-import { createContext, useState, useEffect, useContext } from 'react'
+import { createContext, useState, useEffect, useContext } from "react"
 
 const WindowSizeContext = createContext()
 
@@ -12,9 +12,9 @@ export const WindowSizeProvider = ({ children }) => {
             setIsBelow1100px(window.innerWidth <= 1100)
         }
 
-        window.addEventListener('resize', handleResize)
+        window.addEventListener("resize", handleResize)
         return () => {
-            window.removeEventListener('resize', handleResize)
+            window.removeEventListener("resize", handleResize)
         }
     }, [])
 

@@ -1,6 +1,6 @@
-import { ThemeProvider } from '../contexts/ThemeContext'
-import { TranslationsProvider } from '../contexts/TranslationsContext'
-import { WindowSizeProvider } from '../contexts/WindowSizeContext'
+import { ThemeProvider } from "../contexts/ThemeContext"
+import { TranslationsProvider } from "../contexts/TranslationsContext"
+import { WindowSizeProvider } from "../contexts/WindowSizeContext"
 
 const AppProviders = ({ children }) => {
   return (

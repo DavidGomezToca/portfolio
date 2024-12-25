@@ -1,6 +1,6 @@
-import { useContext } from 'react'
-import { ThemeContext } from '../../contexts/ThemeContext'
-import { TranslationsContext } from '../../contexts/TranslationsContext'
+import { useContext } from "react"
+import { ThemeContext } from "../../contexts/ThemeContext"
+import { TranslationsContext } from "../../contexts/TranslationsContext"
 
 import PortfolioData from "../../data/portfolioData.json"
 

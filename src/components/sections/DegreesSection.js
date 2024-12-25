@@ -1,6 +1,6 @@
-import { useContext } from 'react'
-import { ThemeContext } from '../../contexts/ThemeContext'
-import { TranslationsContext } from '../../contexts/TranslationsContext'
+import { useContext } from "react"
+import { ThemeContext } from "../../contexts/ThemeContext"
+import { TranslationsContext } from "../../contexts/TranslationsContext"
 
 import DegreesData from "../../data/degreesData.json"
 
@@ -28,7 +28,7 @@ export default function DegreesSection() {
                     </div>
                 ))}
             </div>
-        </section >
+        </section>
     )
 
     function Degree({ degree, index }) {

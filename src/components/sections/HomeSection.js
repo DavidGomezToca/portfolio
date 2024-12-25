@@ -1,6 +1,6 @@
-import { useContext } from 'react'
-import { ThemeContext } from '../../contexts/ThemeContext'
-import { TranslationsContext } from '../../contexts/TranslationsContext'
+import { useContext } from "react"
+import { ThemeContext } from "../../contexts/ThemeContext"
+import { TranslationsContext } from "../../contexts/TranslationsContext"
 
 import SocialMedia from "../SocialMedia"
 

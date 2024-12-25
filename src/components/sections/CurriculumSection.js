@@ -1,6 +1,6 @@
-import { useContext } from 'react'
-import { ThemeContext } from '../../contexts/ThemeContext'
-import { TranslationsContext } from '../../contexts/TranslationsContext'
+import { useContext } from "react"
+import { ThemeContext } from "../../contexts/ThemeContext"
+import { TranslationsContext } from "../../contexts/TranslationsContext"
 
 import CurriculumData from "../../data/curriculumData.json"
 
@@ -62,7 +62,7 @@ export default function CurriculumSection() {
                 <div className={`connector connector--left background--${theme}--3`}>
                     <div className={`circle circle--left background--${theme}--3`} />
                 </div>
-            </div >
+            </div>
         )
     }
 
@@ -79,7 +79,7 @@ export default function CurriculumSection() {
                 <div className={`connector connector--right background--${theme}--3`}>
                     <div className={`circle circle--right background--${theme}--3`} />
                 </div>
-            </div >
+            </div>
         )
     }
 }
