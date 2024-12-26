@@ -446,17 +446,18 @@ body::-webkit-scrollbar {
   padding: 40px 200px;
 }
 
-.carousel__container {
-  margin: 40px auto;
-  width: 1200px;
-}
-
 .carousel__container .swiper__container {
   padding-top: 30px;
 }
 
+.carousel__container .swiper__container {
+  width: 1050px !important;
+}
+
 .swiper__slide {
   border-radius: 100px;
+  width: 350px !important;
+  height: 350px !important;
   overflow: hidden;
 }
 
@@ -830,21 +831,16 @@ footer span {
   }
 
   .swiper-slide {
-    width: 200px !important;
-    height: 200px !important;
-    margin: 0 10px;
+    width: 230px !important;
+    height: 230px !important;
   }
 
   .swiper__slide {
     border-radius: 40px;
   }
 
-  .carousel__container {
-    width: 680px !important;
-  }
-
-  .swiper__container {
-    width: 680px !important;
+  .carousel__container .swiper__container {
+    width: 690px !important;
   }
 
   .header {
@@ -912,15 +908,10 @@ footer span {
   .swiper-slide {
     width: 180px !important;
     height: 180px !important;
-    margin: 0 10px;
   }
 
-  .carousel__container {
-    width: 600px !important;
-  }
-
-  .swiper__container {
-    width: 600px !important;
+  .carousel__container .swiper__container {
+    width: 540px !important;
   }
 
   .header__nav {
@@ -980,19 +971,6 @@ footer span {
 }
 
 @media screen and (max-width: 900px) {
-  .swiper-slide {
-    width: 160px !important;
-    height: 160px !important;
-    margin: 0 10px;
-  }
-
-  .carousel__container {
-    width: 540px !important;
-  }
-
-  .swiper__container {
-    width: 540px !important;
-  }
 
   .section__degrees,
   .section__portfolio {
@@ -1016,17 +994,12 @@ footer span {
 
 @media screen and (max-width: 800px) {
   .swiper-slide {
-    width: 120px !important;
-    height: 120px !important;
-    margin: 0 10px;
+    width: 130px !important;
+    height: 130px !important;
   }
 
-  .carousel__container {
-    width: 400px !important;
-  }
-
-  .swiper__container {
-    width: 400px !important;
+  .carousel__container .swiper__container {
+    width: 390px !important;
   }
 
   .more__about__me {
@@ -1102,19 +1075,14 @@ footer span {
   .swiper-slide {
     width: 90px !important;
     height: 90px !important;
-    margin: 0 10px;
   }
 
   .swiper__slide {
     border-radius: 30px;
   }
 
-  .carousel__container {
-    width: 300px !important;
-  }
-
-  .swiper__container {
-    width: 300px !important;
+  .carousel__container .swiper__container {
+    width: 270px !important;
   }
 
   .banner {
