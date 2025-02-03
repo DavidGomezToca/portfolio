@@ -261,7 +261,7 @@
       ]
     ],
     "degrees": [
-      "DIPLOMAS",
+      "DIPLOMES",
       [
         {
           "name": "React & Redux - Développement Web",
@@ -298,7 +298,7 @@
       ]
     ],
     "portfolio": [
-      "PORTAFOLIO",
+      "PORTFOLIO",
       [
         {
           "name": "Cozy Coffee",
@@ -455,7 +455,7 @@
       ]
     ],
     "degrees": [
-      "DIPLOMAS",
+      "DEGREES",
       [
         {
           "name": "React & Redux - Web Development",
@@ -492,7 +492,7 @@
       ]
     ],
     "portfolio": [
-      "PORTAFOLIO",
+      "PORTFOLIO",
       [
         {
           "name": "Cozy Coffee",
@@ -688,7 +688,7 @@
       ]
     ],
     "portfolio": [
-      "PORTAFOLIO",
+      "PORTFOLIO",
       [
         {
           "name": "Cozy Coffee",
