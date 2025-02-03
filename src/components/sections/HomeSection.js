@@ -21,6 +21,7 @@ export default function HomeSection() {
                 <h1 className={`banner__title `}>David Gómez</h1>
                 <h2 className={`banner__description`}>{homeTexts[0]}</h2>
                 <SocialMedia />
+                <img className={`codewars background--${theme}--3`} src="https://www.codewars.com/users/FANTAS666X/badges/micro" alt="CodeWars" onClick={() => window.open("https://www.codewars.com/users/FANTAS666X", "_blank")} />
             </div>
         </section>
     )

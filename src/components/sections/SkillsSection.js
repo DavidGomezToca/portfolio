@@ -15,7 +15,7 @@ import SkillsData from "../../data/skillsData.json"
 export default function SkillsSection() {
     const { theme } = useContext(ThemeContext)
     const { translations } = useContext(TranslationsContext)
-    const { isBelow1100px } = useWindowSize()
+    const isBelow1100px = useWindowSize()
 
     const sections = translations.sections
     const skillsTexts = translations.skills

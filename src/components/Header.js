@@ -6,7 +6,7 @@ import { useWindowSize } from "../contexts/WindowSizeContext"
 export default function Header() {
     const { theme, toggleTheme } = useContext(ThemeContext)
     const { language, languages, translations, selectLanguage } = useContext(TranslationsContext)
-    const { isBelow1100px } = useWindowSize()
+    const isBelow1100px = useWindowSize()
 
     const sections = translations.sections
 
@@ -49,7 +49,7 @@ export default function Header() {
                 }
                 <LanguageFlag />
             </nav>
-        </header>
+        </header >
     )
 
     function MenuNav() {
@@ -87,7 +87,7 @@ export default function Header() {
     function NavLogo() {
         return (
             <div className="nav__element">
-                <a className={`nav__logo color--${theme}--2`} href={`#${sections[0]}`}>
+                <a className={`nav__logo color--${theme}--2`} href="https://github.com/DavidGomezToca" target="_blank" rel="noopener noreferrer">
                     David Gómez
                 </a>
             </div>

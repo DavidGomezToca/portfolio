@@ -335,6 +335,19 @@ body::-webkit-scrollbar {
   align-items: center;
 }
 
+.codewars {
+  margin-top: 2rem;
+  scale: 1.4;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+.codewars:hover {
+  transform: scale(1.05);
+}
+
 .section__about__me {
   padding: 30px 250px;
 }
@@ -971,7 +984,6 @@ footer span {
 }
 
 @media screen and (max-width: 900px) {
-
   .section__degrees,
   .section__portfolio {
     padding: 50px 40px;
