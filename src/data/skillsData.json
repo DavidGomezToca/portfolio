@@ -1,4 +1,5 @@
 [
+  { "name": "Adobe Experience Platform", "file": "adobe_experience_platform" },
   { "name": "React", "file": "react" },
   { "name": "Laravel", "file": "laravel" },
   { "name": "Javascript", "file": "javascript" },
@@ -15,5 +16,6 @@
   { "name": "Android Studio", "file": "android_studio" },
   { "name": "Unity", "file": "unity" },
   { "name": "GIT", "file": "git" },
-  { "name": "GitHub", "file": "git_hub" }
+  { "name": "GitHub", "file": "git_hub" },
+  { "name": "Postman", "file": "postman" }
 ]
