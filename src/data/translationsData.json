@@ -34,6 +34,12 @@
       "Educación y Formación",
       [
         {
+          "title_1": "Formación Continua",
+          "title_2": "Desarrollo Web e Ingeniería de Datos",
+          "url": "Udemy",
+          "date": "2023 - 2025"
+        },
+        {
           "title_1": "FP Grado Superior",
           "title_2": "Desarrollo de Aplicaciones Multiplataforma",
           "url": "Edix Educación (Qualentum)",
@@ -230,6 +236,12 @@
       "Éducation et Formation",
       [
         {
+          "title_1": "Formation Continue",
+          "title_2": "Développement Web et Ingénierie des Données",
+          "url": "Udemy",
+          "date": "2023 - 2025"
+        },
+        {
           "title_1": "FP Grade Supérieur",
           "title_2": "Développement d'Applications Multiplateformes",
           "url": "Edix Éducation (Qualentum)",
@@ -423,6 +435,12 @@
       "CURRICULUM",
       "Education and Formation",
       [
+        {
+          "title_1": "Continuous Training",
+          "title_2": "Web Development and Data Engineering",
+          "url": "Udemy",
+          "date": "2023 - 2025"
+        },
         {
           "title_1": "FP Higher Degree",
           "title_2": "Cross-platform Application Development",
@@ -619,6 +637,12 @@
       "CURRICULUM",
       "Educação e Formação",
       [
+        {
+          "title_1": "Formação Contínua",
+          "title_2": "Desenvolvimento Web e Engenharia de Dados",
+          "url": "Udemy",
+          "date": "2023 - 2025"
+        },
         {
           "title_1": "FP Grau Superior",
           "title_2": "Desenvolvimento de Aplicações Multiplataforma",
