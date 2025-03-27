@@ -37,7 +37,7 @@ export default function Portfolio() {
         return (
             <div className="portfolio__item">
                 <a href={project.url} target="_blank" rel="noreferrer" >
-                    <img className="project__img" src={`/img/portfolio/projects/${project.file}.png`} alt={`Project ${project.file}`} />
+                    <img className="project__img" src={`/img/projects/${project.file}.png`} alt={`Project ${project.file}`} />
                     <div className={`project__overlay overlay--${theme}`}>
                         <h3>{projectTexts.name}</h3>
                         <h3>{project.stack}</h3>

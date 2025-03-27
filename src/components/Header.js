@@ -123,14 +123,14 @@ export default function Header() {
     function LanguageFlag() {
         return (
             <li className="nav__element">
-                <img className={`nav__language__flag border--${theme}--1`} src={`/img/portfolio/flags/${language}.png`} alt="language_menu" onClick={HanddleMenuLanguages} />
+                <img className={`nav__language__flag border--${theme}--1`} src={`/img/flags/${language}.png`} alt="language_menu" onClick={HanddleMenuLanguages} />
                 {isMenuLanguagesOpen &&
                     <div className={`nav__language__menu background--${theme}--2 color--${theme}--1`}>
                         {languages.map((language) => (
                             <div key={`flag-${language.code}`} className={`nav__language__flag--option border--${theme}--1  color--${theme}--2--hover`} onClick={() => HanddleSelectLanguage(language.name)}>
                                 <span className={``}>{language.code.toUpperCase()} </span>
                                 <img
-                                    src={`/img/portfolio/flags/${language.name}.png`}
+                                    src={`/img/flags/${language.name}.png`}
                                     alt={`${language.code}_flag`}
                                 />
                             </div>

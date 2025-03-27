@@ -16,7 +16,7 @@ export default function HomeSection() {
         <section id={sections[0]} className={`section__home color--${theme}--1`}>
             <div className={`banner background--${theme}--1`}>
                 <div className={`banner__img border--${theme}`}>
-                    <img src="/img/portfolio/DavidGomez.png" alt="David Gómez" />
+                    <img src="/img/DavidGomez.png" alt="David Gómez" />
                 </div>
                 <h1 className={`banner__title `}>David Gómez</h1>
                 <h2 className={`banner__description`}>{homeTexts[0]}</h2>

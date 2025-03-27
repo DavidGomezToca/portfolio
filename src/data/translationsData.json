@@ -123,6 +123,10 @@
           "redirect": "Visitar Web"
         },
         {
+          "name": "Voltorb Flip",
+          "redirect": "Visitar Web"
+        },
+        {
           "name": "Slice Delight",
           "redirect": "Visitar Web"
         },
@@ -322,6 +326,10 @@
         },
         {
           "name": "Card Realm",
+          "redirect": "Visit Web"
+        },
+        {
+          "name": "Voltorb Flip",
           "redirect": "Visit Web"
         },
         {
@@ -525,6 +533,10 @@
           "redirect": "Visit Web"
         },
         {
+          "name": "Voltorb Flip",
+          "redirect": "Visit Web"
+        },
+        {
           "name": "Slice Delight",
           "redirect": "Visit Web"
         },
@@ -724,6 +736,10 @@
         },
         {
           "name": "Card Realm",
+          "redirect": "Visitar Web"
+        },
+        {
+          "name": "Voltorb Flip",
           "redirect": "Visitar Web"
         },
         {

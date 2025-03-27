@@ -15,6 +15,11 @@
     "stack": "React"
   },
   {
+    "file": "voltorb_flip",
+    "url": "https://f6x-voltorb-flip.netlify.app/",
+    "stack": "React"
+  },
+  {
     "file": "slice_delight",
     "url": "https://slice-delight.netlify.app",
     "stack": "React"

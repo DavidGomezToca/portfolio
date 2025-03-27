@@ -46,7 +46,7 @@ export default function SkillsSection() {
 
     function SkillSlide({ skill }) {
         return (
-            <img src={`/img/portfolio/skills/${skill.file}.png`} alt={skill.name} />
+            <img src={`/img/skills/${skill.file}.png`} alt={skill.name} />
         )
     }
 }

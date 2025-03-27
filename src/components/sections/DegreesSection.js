@@ -37,7 +37,7 @@ export default function DegreesSection() {
         return (
             <div className="degree__item">
                 <a href={degree.url} target="_blank" rel="noreferrer" >
-                    <img className="degree__img" src={`/img/portfolio/degrees/${degree.file}.png`} alt={`Degree ${degree.file}`} />
+                    <img className="degree__img" src={`/img/degrees/${degree.file}.png`} alt={`Degree ${degree.file}`} />
                     <div className={`degree__overlay overlay--${theme}`}>
                         <h3>{degreeTexts.name}</h3>
                         <p>{degreeTexts.entity}</p>
