@@ -1,19 +1,58 @@
 import { useContext, useState, useRef } from "react"
 import { ThemeContext } from "../contexts/ThemeContext"
-import { TranslationsContext } from "../contexts/TranslationsContext"
 import { useWindowSize } from "../contexts/WindowSizeContext"
+import { TranslationsContext } from "../contexts/TranslationsContext"
 
+/**
+ * @component Footer.
+ * @returns {JSX.Element} - The Footer component.
+ */
 export default function Header() {
+    /**
+     * Theme context.
+     * @type {{object}}.
+     */
     const { theme, toggleTheme } = useContext(ThemeContext)
+
+    /**
+     * Translations context.
+     * @type {{object}}.
+     */
     const { language, languages, translations, selectLanguage } = useContext(TranslationsContext)
+
+    /**
+     * Is Below 1100px.
+     * @type {boolean}.
+     */
     const isBelow1100px = useWindowSize()
 
+    /**
+     * Sections Texts.
+     * @type {object}.
+     */
     const sections = translations.sections
 
+    /**
+     * Is Menu Options Open.
+     * @type {[boolean, function]}.
+     */
     const [isMenuOptionsOpen, setIsMenuOptionsOpen] = useState(false)
+
+    /**
+     * Is Menu Languages Open.
+     * @type {[boolean, function]}.
+     */
     const [isMenuLanguagesOpen, setIsMenuLanguagesOpen] = useState(false)
+
+    /**
+     * Is Toggle Theme Animation Running.
+     * @type {object}.
+     */
     const isToggleThemeAnimationRunning = useRef(false)
 
+    /**
+     * Toggle Current Theme.
+     */
     function HanddleToggleTheme() {
         if (!isToggleThemeAnimationRunning.current) {
             isToggleThemeAnimationRunning.current = true
@@ -22,16 +61,25 @@ export default function Header() {
         }
     }
 
+    /**
+     * Toggle Show Menu Options.
+     */
     function HanddleMenuOptions() {
         setIsMenuOptionsOpen((prevIsMenuOptionsOpern) => !prevIsMenuOptionsOpern)
         setIsMenuLanguagesOpen(false)
     }
 
+    /**
+     * Toggle Show Menu Languages.
+     */
     function HanddleMenuLanguages() {
         setIsMenuLanguagesOpen((prevIsMenuLanguagesOpen) => !prevIsMenuLanguagesOpen)
         setIsMenuOptionsOpen(false)
     }
 
+    /**
+     * Switch to a different Language.
+     */
     function HanddleSelectLanguage(language) {
         setIsMenuLanguagesOpen(false)
         selectLanguage(language)

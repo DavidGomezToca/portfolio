@@ -8,6 +8,10 @@ import PortfolioSection from "./sections/PortfolioSection"
 import ContactSection from "./sections/ContactSection"
 import Footer from "./Footer"
 
+/**
+ * @component App.
+ * @returns {JSX.Element} - The App component.
+ */
 export default function App() {
   return (
     <div className="app">

@@ -1,11 +1,22 @@
 import { useContext } from "react"
 import { ThemeContext } from "../contexts/ThemeContext"
-
 import SocialMediaData from "../data/socialMediaData.json"
 
+/**
+ * @component SocialMedia.
+ * @returns {JSX.Element} - The SocialMedia component.
+ */
 export default function SocialMedia() {
+    /**
+     * Theme context.
+     * @type {{object}}.
+     */
     const { theme } = useContext(ThemeContext)
 
+    /**
+     * Social Media Data.
+     * @type {object}.
+     */
     const socialMedias = SocialMediaData.socialMedias
 
     return (

@@ -1,15 +1,37 @@
 import { useContext } from "react"
 import { ThemeContext } from "../../contexts/ThemeContext"
 import { TranslationsContext } from "../../contexts/TranslationsContext"
-
 import personalInformationData from "../../data/personalInformationData.json"
 
 export default function ContactSection() {
+    /**
+     * Theme context.
+     * @type {string}.
+     */
     const { theme } = useContext(ThemeContext)
+
+    /**
+     * Translations context.
+     * @type {object}.
+     */
     const { translations } = useContext(TranslationsContext)
 
+    /**
+     * Texts Translated.
+     * @type {object}.
+     */
     const sections = translations.sections
+
+    /**
+     * Contact Texts Translated.
+     * @type {object}.
+    */
     const contactTexts = translations.contact
+
+    /**
+     * Personal Information Data.
+     * @type {object}.
+    */
     const personalInformation = personalInformationData
 
     return (

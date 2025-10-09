@@ -74,6 +74,10 @@
       "DIPLOMAS",
       [
         {
+          "name": "Inteligencia Artificial - Desarrollo de Software",
+          "entity": "BIG school"
+        },
+        {
           "name": "React & Redux - Desarrollo Web",
           "entity": "Udemy"
         },
@@ -280,6 +284,10 @@
       "DIPLOMES",
       [
         {
+          "name": "Intelligence Artificielle - Développement de Software",
+          "entity": "BIG school"
+        },
+        {
           "name": "React & Redux - Développement Web",
           "entity": "Udemy"
         },
@@ -483,6 +491,10 @@
     "degrees": [
       "DEGREES",
       [
+        {
+          "name": "Artificial Intelligence - Software Developement",
+          "entity": "BIG school"
+        },
         {
           "name": "React & Redux - Web Development",
           "entity": "Udemy"
@@ -689,6 +701,10 @@
     "degrees": [
       "DIPLOMAS",
       [
+        {
+          "name": "Inteligência artificial - Desenvolvimento de software",
+          "entity": "BIG school"
+        },
         {
           "name": "React & Redux - Desenvolvimiento Web",
           "entity": "Udemy"

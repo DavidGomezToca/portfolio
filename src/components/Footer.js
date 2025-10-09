@@ -4,14 +4,46 @@ import { TranslationsContext } from "../contexts/TranslationsContext"
 
 import SocialMedia from "./SocialMedia"
 
+/**
+ * @component Footer.
+ * @returns {JSX.Element} - The Footer component.
+ */
 export default function Footer() {
+    /**
+     * Theme context.
+     * @type {string}.
+     */
     const { theme } = useContext(ThemeContext)
+
+    /**
+     * Translations context.
+     * @type {object}.
+     */
     const { translations } = useContext(TranslationsContext)
 
+    /**
+     * Texts Translated.
+     * @type {object}.
+     */
     const sections = translations.sections
+
+    /**
+     * Project Version.
+     * @type {string}.
+     */
     const version = require("../../package.json").version
 
+    /**
+     * Is Scrolled State.
+     * @type {[boolean, function]}.
+     */
     const [isScrolled, setIsScrolled] = useState(false)
+
+
+    /**
+     * Current Year.
+     * @type {number}.
+     */
     const year = new Date().getFullYear()
 
     useEffect(() => {
@@ -19,9 +51,7 @@ export default function Footer() {
             const scrollPosition = window.scrollY
             setIsScrolled(scrollPosition > 200)
         }
-
         window.addEventListener("scroll", handleScroll)
-
         return () => {
             window.removeEventListener("scroll", handleScroll)
         }

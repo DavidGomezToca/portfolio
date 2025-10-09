@@ -1,17 +1,48 @@
 import { useContext } from "react"
+import interestsData from "../../data/interestsData.json"
 import { ThemeContext } from "../../contexts/ThemeContext"
 import { TranslationsContext } from "../../contexts/TranslationsContext"
-
 import personalInformationData from "../../data/personalInformationData.json"
-import interestsData from "../../data/interestsData.json"
 
+/**
+ * @component AboutMeSection.
+ * @returns {JSX.Element} - The App component.
+ */
 export default function AboutMeSection() {
+    /**
+     * Theme context.
+     * @type {string}.
+     */
     const { theme } = useContext(ThemeContext)
+
+    /**
+     * Translations context.
+     * @type {object}.
+     */
     const { translations } = useContext(TranslationsContext)
 
+    /**
+     * Texts Translated.
+     * @type {object}.
+     */
     const sections = translations.sections
+
+    /**
+     * About Me Section Texts Translated.
+     * @type {object}.
+    */
     const aboutMeTexts = translations.about__me
+
+    /**
+     * Personal Information Data.
+     * @type {object}.
+    */
     const personalInformation = personalInformationData
+
+    /**
+     * Interests Icons.
+     * @type {object}.
+    */
     const interestsIcons = interestsData
 
     return (
