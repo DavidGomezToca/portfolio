@@ -74,6 +74,10 @@
       "DIPLOMAS",
       [
         {
+          "name": "Symfony 7 - Desarrollo Backend",
+          "entity": "Udemy"
+        },
+        {
           "name": "Inteligencia Artificial - Desarrollo de Software",
           "entity": "BIG school"
         },
@@ -284,6 +288,10 @@
       "DIPLOMES",
       [
         {
+          "name": "Symfony 7 - Développement Backend",
+          "entity": "Udemy"
+        },
+        {
           "name": "Intelligence Artificielle - Développement de Software",
           "entity": "BIG school"
         },
@@ -491,6 +499,10 @@
     "degrees": [
       "DEGREES",
       [
+        {
+          "name": "Symfony 7 - Backend Developement",
+          "entity": "Udemy"
+        },
         {
           "name": "Artificial Intelligence - Software Developement",
           "entity": "BIG school"
@@ -701,6 +713,10 @@
     "degrees": [
       "DIPLOMAS",
       [
+        {
+          "name": "Symfony 7 - Desenvolvimiento Backend",
+          "entity": "Udemy"
+        },
         {
           "name": "Inteligência artificial - Desenvolvimento de software",
           "entity": "BIG school"
