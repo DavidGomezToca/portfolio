@@ -2,6 +2,7 @@
   { "name": "Adobe Experience Platform", "file": "adobe_experience_platform" },
   { "name": "React", "file": "react" },
   { "name": "Laravel", "file": "laravel" },
+  { "name": "Laravel", "file": "symfony" },
   { "name": "Javascript", "file": "javascript" },
   { "name": ".NET", "file": "dotnet" },
   { "name": "WordPress", "file": "word_press" },
