@@ -10,7 +10,7 @@
 
 - **STACK :**
 
-  - **Portfolio** : `1.9.0`
+  - **Portfolio** : `1.10.0`
   - **Swiper** : `11.1.14`
   - **React** : `18.3.1`
   - **React Dom** : `18.3.1`
