@@ -13,7 +13,7 @@
     "about__me": [
       "SOBRE MÍ",
       "Presentación",
-      "Soy Técnico en Desarrollo de Aplicaciones Multiplataforma con habilidades destacadas en Java. Mi enfoque en la excelencia y el conocimiento actualizado en desarrollo multiplataforma me permite aportar eficazmente en equipos multidisciplinarios, contribuyendo al desarrollo de proyectos innovadores.",
+      "Soy Técnico en Desarrollo de Aplicaciones Multiplataforma especializado en el ecosistema de Adobe Experience Platform (AEP). Cuento con la certificación Adobe Real-Time CDP Developer Expert, que avala mis habilidades en la implementación, integración y explotación de soluciones basadas en datos para experiencias digitales. Mi enfoque en la excelencia y el aprendizaje continuo me permite aportar eficazmente en equipos multidisciplinarios, contribuyendo al desarrollo de proyectos innovadores dentro del ámbito Martech y la personalización en tiempo real.",
       "Datos Personales",
       ["Edad", "Móvil", "Email", "Idiomas", "Carnet"],
       "Intereses",
@@ -73,6 +73,10 @@
     "degrees": [
       "DIPLOMAS",
       [
+        {
+          "name": "Experto Desarrollador en Adobe Real-Time CDP - Tecnologías de Marketing",
+          "entity": "Adobe"
+        },
         {
           "name": "Symfony 7 - Desarrollo Backend",
           "entity": "Udemy"
@@ -227,7 +231,7 @@
     "about__me": [
       "SUR MOI",
       "Presentation",
-      "Je suis Technicien en Développement d'Applications Multiplateformes avec des compétences remarquables en Java. Mon accent sur l'excellence et les connaissances mises à jour en développement multiplateforme me permet d'apporter efficacement dans des équipes multidisciplinaires, contribuant au développement de projets innovants.",
+      "Je suis Technicien en Développement d’Applications Multiplateformes, spécialisé dans l’écosystème Adobe Experience Platform (AEP). Je possède la certification Adobe Real-Time CDP Developer Expert, qui atteste de mes compétences en implémentation, intégration et exploitation de solutions basées sur les données pour des expériences digitales. Mon engagement envers l’excellence et l’apprentissage continu me permet de contribuer efficacement au sein d’équipes multidisciplinaires et de participer à des projets innovants dans le domaine du MarTech et de la personnalisation en temps réel.",
       "Données Personnelles",
       ["Âge", "Mobile", "Email", "Langues", "Permis"],
       "Intérêts",
@@ -287,6 +291,10 @@
     "degrees": [
       "DIPLOMES",
       [
+        {
+          "name": "Expert Développeur Adobe Real-Time CDP - Technologie du marketing",
+          "entity": "Adobe"
+        },
         {
           "name": "Symfony 7 - Développement Backend",
           "entity": "Udemy"
@@ -439,7 +447,7 @@
     "about__me": [
       "ABOUT ME",
       "Presentation",
-      "I'm Technician in Multiplatform Application Development with strong skills in Java. My focus on excellence and up-to-date knowledge in multiplatform development enables me to effectively contribute to multidisciplinary teams, contributing to the development of innovative projects.",
+      "I am a Multiplatform Application Development Technician specialized in the Adobe Experience Platform (AEP) ecosystem. I hold the Adobe Real-Time CDP Developer Expert certification, which validates my skills in implementing, integrating, and leveraging data-driven solutions for digital experiences. My commitment to excellence and continuous learning enables me to contribute effectively to multidisciplinary teams and to drive innovative projects within the MarTech and real-time personalization space.",
       "Personal Information",
       ["Age", "Mobile", "Email", "Languages", "License"],
       "Interests",
@@ -499,6 +507,10 @@
     "degrees": [
       "DEGREES",
       [
+        {
+          "name": "Adobe Real-Time CDP Developer Expert - MarTech",
+          "entity": "Adobe"
+        },
         {
           "name": "Symfony 7 - Backend Developement",
           "entity": "Udemy"
@@ -653,7 +665,7 @@
     "about__me": [
       "SOBRE MIM",
       "Apresentação",
-      "Sou Técnico em Desenvolvimento de Aplicações Multiplataforma com habilidades de destaque em Java. O meu enfoque na excelência e no conhecimento atualizado em desenvolvimento multiplataforma me permite contribuir eficazmente em equipes multidisciplinares, contribuindo para o desenvolvimento de projetos inovadores.",
+      "Sou Técnico em Desenvolvimento de Aplicações Multiplataforma, especializado no ecossistema da Adobe Experience Platform (AEP). Possuo a certificação Adobe Real-Time CDP Developer Expert, que comprova as minhas competências na implementação, integração e utilização de soluções orientadas por dados para experiências digitais. O meu foco na excelência e no aprendizado contínuo permite-me contribuir eficazmente em equipes multidisciplinares e impulsionar projetos inovadores no setor de MarTech e personalização em tempo real.",
       "Dados Pessoais",
       ["Idade", "Móvel", "Email", "Idiomas", "Carta"],
       "Interesses",
@@ -713,6 +725,10 @@
     "degrees": [
       "DIPLOMAS",
       [
+        {
+          "name": "Especialista Desenvolvedor em Adobe Real-Time CDP - Tecnologias de Marketing",
+          "entity": "Adobe"
+        },
         {
           "name": "Symfony 7 - Desenvolvimiento Backend",
           "entity": "Udemy"
